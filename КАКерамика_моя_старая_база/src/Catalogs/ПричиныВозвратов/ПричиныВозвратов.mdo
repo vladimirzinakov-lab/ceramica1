@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9eafe2b-6ed9-4222-bba4-f3022122a0e7">
+  <producedTypes>
+    <objectType typeId="190441f0-3152-454f-88bc-c55572496a79" valueTypeId="535c843b-be98-457c-a3e9-e033fd387232"/>
+    <refType typeId="c0834815-7c9e-431b-b94a-08ff0fdff159" valueTypeId="ac892365-3f68-4d65-b9f2-acd4494c7e7d"/>
+    <selectionType typeId="e84d69c8-9cde-45f0-b5c5-fe3404abb703" valueTypeId="25dd3cf8-f37f-4868-89fb-45a350b26be2"/>
+    <listType typeId="4075a90b-8634-4d22-b06c-6b1d872ff753" valueTypeId="e07dd65f-724b-409c-bf1b-7baf133312e5"/>
+    <managerType typeId="67fae52d-38fe-4407-aeea-b8383c0f9ee0" valueTypeId="53d67973-329a-4370-b714-0fe64aa5d45f"/>
+  </producedTypes>
+  <name>ПричиныВозвратов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины возвратов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПричиныВозвратов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ПричиныВозвратов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

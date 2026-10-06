@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6790890f-d661-4a03-83a7-10647dc01e8c">
+  <producedTypes>
+    <selectionType typeId="eabfa520-5ba0-4888-a408-b0fd11f46b1f" valueTypeId="1ea3cb36-16f3-49fd-aca4-58f9c21c2081"/>
+    <listType typeId="c707c5c2-8678-4b00-8b80-d311e838ba35" valueTypeId="c6434778-070e-4a73-ae19-da57b354c929"/>
+    <managerType typeId="a4b712ad-f205-4fc3-b4a4-5201d201b928" valueTypeId="6e06ab9b-e435-4b1e-b428-0c6a84bc58dc"/>
+    <recordSetType typeId="1aa72562-c436-44ef-88b7-2dda7c8bf450" valueTypeId="6029e62b-0ab8-4dc7-92fd-087c50a55c57"/>
+    <recordKeyType typeId="e8b1f819-2fa4-4532-819f-cdc52df8dd0e" valueTypeId="f64be7e2-c779-43a3-bfa3-0a18215da852"/>
+    <recordType typeId="10283143-d9b6-420f-859d-d9fd08066fc0" valueTypeId="9a0168a4-b989-4374-b030-2e48494acf52"/>
+    <recordManagerType typeId="c0849922-2313-4135-9d52-08197b03516d" valueTypeId="b919380b-b988-4da9-a6d2-b78af4b8b065"/>
+  </producedTypes>
+  <name>НастройкиЗагрузкиОтчетовКомиссионеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки загрузки отчетов комиссионеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b2be8032-98e8-43e6-8ccf-0957df9aa398">
+    <name>ХранилищеНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище настроек</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6b46187a-5819-4427-9fe2-3597c4e245a2">
+    <name>Настройка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиЗагрузкиОтчетовКомиссионеров</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

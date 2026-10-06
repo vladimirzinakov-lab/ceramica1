@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2637eaf4-7dca-4205-a040-faed2911529f">
+  <producedTypes>
+    <refType typeId="3a5614ed-7e9e-41b5-9627-6de6f0bc6b98" valueTypeId="e2c710f3-45ad-4fdd-a2c9-c62ab8043fbd"/>
+    <listType typeId="48160139-6391-418c-a1e0-a61366f17625" valueTypeId="455043bc-edfa-4add-8714-bdd427b831b0"/>
+    <managerType typeId="45f3dee8-280f-43e2-abe3-528b6b0f11cc" valueTypeId="5c39a5d5-a5b7-4fd8-93de-4fba4c1e928a"/>
+  </producedTypes>
+  <name>Рекл_ВидыРемонта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды ремонта</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="768f7d5a-5655-4042-b8f8-18d3bd2aa07a">
+    <name>Гарантия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гарантия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6eddf5f5-de01-4f6d-874d-2bb39a46207c">
+    <name>Лояльность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лояльность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5e3dae51-dd96-4936-a353-f51960ed8a05">
+    <name>Экспозиция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспозиция</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

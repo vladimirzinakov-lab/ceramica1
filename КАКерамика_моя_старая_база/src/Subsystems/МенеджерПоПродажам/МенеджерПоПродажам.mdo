@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec7c8cdc-ac26-4b32-ba00-180b060f6879">
+  <name>МенеджерПоПродажам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер по продажам</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Role.МенеджерПоПродажамУправлениеРазделом</content>
+  <content>Role.ПолныеПрава</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Document.ЗаказКлиента</content>
+  <content>Document.ЗаданиеНаПеревозку</content>
+  <content>DataProcessor.ЖурналДокументовПродажи</content>
+  <content>CommonCommand.НоменклатураФормаПодбора</content>
+  <content>Catalog.Партнеры</content>
+  <subsystems>Отчеты</subsystems>
+</mdclass:Subsystem>

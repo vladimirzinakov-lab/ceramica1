@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb3f1b71-72e8-4bec-b3bb-bb2edf04b707">
+  <producedTypes>
+    <refType typeId="4734243d-6716-40d1-88e4-94b27b69462d" valueTypeId="8117cabe-a6c3-45c8-9e46-5dc450d0a7f6"/>
+    <listType typeId="455c54c6-390b-4069-a8aa-fcac5e39a7cb" valueTypeId="b95a9376-87fc-4d0b-9220-433a1cd4f123"/>
+    <managerType typeId="0ee6f9ae-8372-4091-80f7-c5a8737c296e" valueTypeId="d140d0d2-c102-40aa-8485-e553a076653e"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ПредоставлениеКонтейнера</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предоставление контейнера</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7b022987-b9ee-43ac-a08d-ffbf75e1ed97">
+    <name>ПредоставленКлиентом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоставлен клиентом</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31b0acec-f96d-4657-834f-ed94c1550da2">
+    <name>ПредоставленЭкспедитором</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предоставлен экспедитором</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

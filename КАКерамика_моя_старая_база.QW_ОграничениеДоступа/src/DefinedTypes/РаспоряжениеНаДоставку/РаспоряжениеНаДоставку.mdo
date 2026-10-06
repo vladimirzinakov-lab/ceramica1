@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="90932faa-908c-4496-9a01-f5ba3fc76f48" extendedConfigurationObject="10afba82-1af6-45f4-82eb-1a734d54de09">
+  <producedTypes>
+    <containerType typeId="9d5e3c1d-ed54-415d-8428-8929cf7d3b14" valueTypeId="53f749db-6558-47db-bdd8-1fe4a4c9d29c"/>
+  </producedTypes>
+  <name>РаспоряжениеНаДоставку</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>CatalogRef.ДоговорыКонтрагентов</type>
+      </types>
+      <types>
+        <state>Checked</state>
+        <type>DocumentRef.ПриобретениеТоваровУслуг</type>
+      </types>
+      <types>
+        <state>Checked</state>
+        <type>DocumentRef.ЗаявкаНаВозвратТоваровОтКлиента</type>
+      </types>
+      <types>
+        <state>Checked</state>
+        <type>DocumentRef.ЗаказКлиента</type>
+      </types>
+      <types>
+        <state>Checked</state>
+        <type>DocumentRef.ЗаказПоставщику</type>
+      </types>
+      <types>
+        <state>Checked</state>
+        <type>DocumentRef.РеализацияТоваровУслуг</type>
+      </types>
+    </typeExtension>
+  </extension>
+</mdclass:DefinedType>

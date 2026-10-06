@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87aca007-980a-40f8-ab49-efcd8b1d02e7">
+  <name>КонтурЛогистика_ОтправитьГотовыеКОтправкеДокументы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправка готовых к отправке документов (Контур.Логистика)</value>
+  </synonym>
+  <comment>отправляет подготовленные файлы обмена</comment>
+  <methodName>CommonModule.КонтурЛогистика_РегламентныеЗадания.КонтурЛогистика_ОтправитьГотовыеКОтправкеДокументы</methodName>
+  <description>Отправка готовых к отправке документов (Контур.Логистика)</description>
+  <key>КонтурЛогистика_ОтправитьГотовыеКОтправкеДокументы</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

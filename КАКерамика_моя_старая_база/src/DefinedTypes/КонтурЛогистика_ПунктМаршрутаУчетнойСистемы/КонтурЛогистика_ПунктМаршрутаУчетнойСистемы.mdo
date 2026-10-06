@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a3ad9f4-54d2-4d93-96c4-9205ff2d652e">
+  <producedTypes>
+    <containerType typeId="c2eae452-4e4d-49c9-85b5-c0aa821974af" valueTypeId="aa5501f5-7066-4b8a-a09f-2fe3175a4e7c"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ПунктМаршрутаУчетнойСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур логистика пункт маршрута учетной системы</value>
+  </synonym>
+  <comment>Указываются справочники (или строки) которые соответствуют точкам отгрузки и точкам доставки  в учетной системе (основной конфигурации)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>500</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

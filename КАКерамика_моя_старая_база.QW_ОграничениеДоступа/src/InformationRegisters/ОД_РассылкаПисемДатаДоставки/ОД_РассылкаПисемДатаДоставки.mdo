@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5f2b79a7-e685-42d6-8005-71b5eec5d469">
+  <producedTypes>
+    <selectionType typeId="df27d464-69d8-4086-a812-13b549302257" valueTypeId="86af500a-70db-47f9-98ee-174967ca8d07"/>
+    <listType typeId="1220af6c-6dc3-4754-83ad-7e367db89d7c" valueTypeId="dbb0217a-17b2-4cda-9b4d-e06c88b68905"/>
+    <managerType typeId="cbfb8b06-9f23-40bf-8eb8-a6a8915fde32" valueTypeId="51de5a54-23a1-4484-a324-8b27c564b9e2"/>
+    <recordSetType typeId="9cec6a96-c155-4f57-929e-3122d354e2e2" valueTypeId="2eacffe1-fc9f-499a-af60-fbcd8dec4820"/>
+    <recordKeyType typeId="1b0320dc-73af-4dd4-bb72-1e134a299239" valueTypeId="5986d14f-4456-4133-bc80-9e1796b3d761"/>
+    <recordType typeId="5254bdd3-b7c2-4b70-8f1e-aaa1840fb936" valueTypeId="89ad8c77-3764-48e8-8542-c42019bbca69"/>
+    <recordManagerType typeId="79136143-e255-4e5a-be83-2aa037837b05" valueTypeId="0aee148a-d717-454c-9b4f-a9f6848558eb"/>
+  </producedTypes>
+  <name>ОД_РассылкаПисемДатаДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка писем об изменении даты доставки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="401eb21a-d3ee-40ed-9a34-486698e5fdf6">
+    <name>Активно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активно</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="b5bdb540-792b-4cfc-aa1d-08817020b9ea">
+    <name>ДатаСобытия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата события</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b7470af6-9f42-4aea-86d4-5247c68b9e83">
+    <name>ДатаСтарая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата старая</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8a2fe295-8779-49c2-8c90-7750d244ce59">
+    <name>ДатаНовая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата новая</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="ec918643-be73-42fa-83f3-963607dcb96e">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f1d36660-51bd-479a-b7c4-585ba64fc0d0">
+    <name>ЗаказПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ поставщику</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказПоставщику</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="4dc9f0d9-08e3-4557-9af1-fb9bc01becdb">
+    <name>ЗаказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ клиента</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

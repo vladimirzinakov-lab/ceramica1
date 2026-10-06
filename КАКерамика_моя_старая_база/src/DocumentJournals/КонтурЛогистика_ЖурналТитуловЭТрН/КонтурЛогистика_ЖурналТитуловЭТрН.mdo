@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DocumentJournal xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="733021aa-83c4-4c91-bede-1d2673d7e2b6">
+  <producedTypes>
+    <selectionType typeId="d4903654-dd51-46aa-9dfb-478db0515d50" valueTypeId="044e4076-eced-40b0-9b2f-225edbdfbaba"/>
+    <listType typeId="d2573a8b-9980-4aec-bf93-fa2217dd9288" valueTypeId="300b463d-947a-4de9-a27e-86c0dec25549"/>
+    <managerType typeId="e8f50749-9e14-4130-844f-03018e008d44" valueTypeId="697b0328-de9b-4aca-bbe2-925310deb2f2"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ЖурналТитуловЭТрН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал электронных трансп. накладных (Контур.Логистика)</value>
+  </synonym>
+  <defaultForm>DocumentJournal.КонтурЛогистика_ЖурналТитуловЭТрН.Form.ФормаСписка</defaultForm>
+  <useStandardCommands>true</useStandardCommands>
+  <registeredDocuments>Document.КонтурЛогистика_ТрН_Титул1</registeredDocuments>
+  <registeredDocuments>Document.КонтурЛогистика_ТрН_Титул2</registeredDocuments>
+  <registeredDocuments>Document.КонтурЛогистика_ТрН_Титул3</registeredDocuments>
+  <registeredDocuments>Document.КонтурЛогистика_ТрН_Титул4</registeredDocuments>
+  <registeredDocuments>Document.КонтурЛогистика_ТрН_Титул7</registeredDocuments>
+  <registeredDocuments>Document.КонтурЛогистика_ТрН_Титул8</registeredDocuments>
+  <registeredDocuments>Document.КонтурЛогистика_ТрН_Титул5</registeredDocuments>
+  <registeredDocuments>Document.КонтурЛогистика_ТрН_Титул6</registeredDocuments>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <columns uuid="be35a05c-4f78-4951-a6de-2d174709f60f">
+    <name>ДокументОснование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ основание</value>
+    </synonym>
+    <references>Document.КонтурЛогистика_ТрН_Титул1.Attribute.ДокументОснование</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул2.Attribute.ДокументОснование</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул3.Attribute.ДокументОснование</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул4.Attribute.ДокументОснование</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул7.Attribute.ДокументОснование</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул8.Attribute.ДокументОснование</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул5.Attribute.ДокументОснование</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул6.Attribute.ДокументОснование</references>
+  </columns>
+  <columns uuid="64b0b03e-ef6f-4ff9-b48d-eba29426bce0">
+    <name>ГлавныйДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Главный документ</value>
+    </synonym>
+    <references>Document.КонтурЛогистика_ТрН_Титул1.Attribute.ДокументЭТРН</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул2.Attribute.ДокументЭТРН</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул3.Attribute.ДокументЭТРН</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул4.Attribute.ДокументЭТРН</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул7.Attribute.ДокументЭТРН</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул8.Attribute.ДокументЭТРН</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул5.Attribute.ДокументЭТРН</references>
+    <references>Document.КонтурЛогистика_ТрН_Титул6.Attribute.ДокументЭТРН</references>
+  </columns>
+  <forms uuid="542c6f27-75c2-4114-a6ec-25929ec3042d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DocumentJournal>

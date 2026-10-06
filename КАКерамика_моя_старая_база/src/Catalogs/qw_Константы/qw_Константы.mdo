@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7823dad-2c8b-4408-9e0a-480fd5bb2554">
+  <producedTypes>
+    <objectType typeId="630b414c-0621-4fe4-a7dd-ff01adba2771" valueTypeId="cb6ef6b5-1704-4722-b0fa-c08e3f3e63c6"/>
+    <refType typeId="8966635d-34ac-4557-994d-86a3d354ee34" valueTypeId="0b7f486c-852f-43ee-a28a-6d5b3f05d704"/>
+    <selectionType typeId="4dc3d242-6250-49e5-ab1c-43a7c226abf8" valueTypeId="315672a9-d321-4716-98d5-3c21f7549c93"/>
+    <listType typeId="05a81ff5-7819-4e57-9b9e-80f475a80ad4" valueTypeId="4d84dc3d-1326-4262-996a-1f0ac2bbb17a"/>
+    <managerType typeId="6b3265fa-24d2-4ab7-ad9a-6c8741068e14" valueTypeId="4a15cf12-2a28-4a07-899f-12194a022043"/>
+  </producedTypes>
+  <name>qw_Константы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки и константы (справочник)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.qw_Константы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.qw_Константы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.qw_Константы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="8b99f2d2-dd58-4125-a7b1-8f891ae9aeb3">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+      <types>String</types>
+      <types>Date</types>
+      <types>Number</types>
+      <types>AnyRef</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="b7425b9c-c69a-4747-9e51-d1fe2f556802">
+    <producedTypes>
+      <objectType typeId="d3749565-966c-41c7-aa30-5aab5db93e0e" valueTypeId="dcd7b9ce-0e51-46ac-9ee1-98ece05abe13"/>
+      <rowType typeId="e9f648f8-b07f-48bd-9964-43bb4dfdffab" valueTypeId="70339b5d-9d40-42ee-b433-84c0afe476fa"/>
+    </producedTypes>
+    <name>Значения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения</value>
+    </synonym>
+    <attributes uuid="fc8b459f-cd9f-4c6c-96f6-8e21f257e840">
+      <name>Свойство</name>
+      <synonym>
+        <key>ru</key>
+        <value>Свойство</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c3c59cf5-0a3a-4770-8e7f-1b56e8c48f7a">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>1000</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="5e5aa556-a4e7-4d2c-91a3-fecf8a9ecb08">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

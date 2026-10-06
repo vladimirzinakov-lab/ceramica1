@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="fc36ce3d-2dfd-4a9a-b311-9075fc498e09" extendedConfigurationObject="0c34cc7f-35b7-41de-8b1a-ebd5e783b225">
+  <producedTypes>
+    <refType typeId="72103ec3-25f1-482d-87de-b5a180cea6b7" valueTypeId="0a7210ee-cd4b-485c-8812-3c009cb0ed71"/>
+    <listType typeId="e170f6eb-cf11-44cc-bf3d-b0c45d57d4b9" valueTypeId="12fcf312-31d2-4eee-b76c-f344870d9fde"/>
+    <managerType typeId="59ce6014-9d71-4402-8a3e-c9aa33cbfb17" valueTypeId="1cc41eb1-7cb1-407d-9a85-041eeb0ba2e2"/>
+  </producedTypes>
+  <name>СтатусыТаможенныхДеклараций</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

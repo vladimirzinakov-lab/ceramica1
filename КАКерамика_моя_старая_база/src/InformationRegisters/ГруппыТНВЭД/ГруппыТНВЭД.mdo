@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c916074-b605-4c27-a005-7ddc6acce764">
+  <producedTypes>
+    <selectionType typeId="f38cff19-1751-4451-bda4-64fbca14b897" valueTypeId="e6d466bc-fed7-42d6-849e-623f04aab95c"/>
+    <listType typeId="633d2cac-b4a2-43c2-8b72-72aefbcde78a" valueTypeId="5031fb9d-ebb0-4abf-8167-4b8c5bbd01e1"/>
+    <managerType typeId="f814b6b2-df68-40cd-b784-c283fbe5ea4d" valueTypeId="df64c3c6-22b4-4780-b6e0-f233afd15993"/>
+    <recordSetType typeId="521e2441-4e30-4813-964f-5b9d9ac2dcb2" valueTypeId="ed16fb69-d2fb-452d-a891-98c32c8a41dd"/>
+    <recordKeyType typeId="ad9ed3b0-4b90-4432-9a77-cee0b580039b" valueTypeId="4f0d0e99-29c5-49b4-90c4-6e80bcbb753b"/>
+    <recordType typeId="a8a1daa5-ba9c-419c-a884-d83d83b4222a" valueTypeId="60387ff4-1888-4001-9164-2d591d81b402"/>
+    <recordManagerType typeId="a07cb5f2-f6b8-4930-8ae1-e152ff8726af" valueTypeId="1c841100-415e-43ff-8200-51cea984f1c6"/>
+  </producedTypes>
+  <name>ГруппыТНВЭД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Группы ТНВЭД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="580cc3bb-436f-4799-8bf9-d34569f6e3ee">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>1000</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="330d9215-8c70-497b-bce4-17da6e7c421b">
+    <name>Код</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

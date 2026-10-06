@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8ef6e577-b3cf-4bed-8c19-57bbf36c44ed" extendedConfigurationObject="39fc86f7-e677-4128-9c62-d4f95d8b2d99">
+  <producedTypes>
+    <objectType typeId="64560726-83c9-4169-b5a8-5ef63293b02e" valueTypeId="87a8652f-21d0-419f-a40c-3c801b1c4e4d"/>
+    <refType typeId="55204a8e-5983-440f-91e9-6e1d3a5ed9df" valueTypeId="9398a500-4dfa-4f84-865a-f4ebd34d0065"/>
+    <selectionType typeId="f9f97074-f3f4-41c1-a593-9189157c89fe" valueTypeId="5a865198-3884-4a02-9bad-6e7a3addfb26"/>
+    <listType typeId="c1c2b824-80ff-498b-b035-197b53f094f0" valueTypeId="85a5b306-e5a1-4854-932a-d296cd4589ce"/>
+    <managerType typeId="bcbc7bcf-bccb-4481-9302-f5e6453b9b2d" valueTypeId="373545a3-52bd-41df-9f84-fa38cbe015db"/>
+  </producedTypes>
+  <name>Ремонт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Document>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f682bff9-2a99-4cb9-a847-750f8c624a4f">
+  <name>КонтурЛогистика_XDTOПакет__UniSoobsch</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомление об уточнении</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

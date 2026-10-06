@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c62aa0c-851a-463c-bf73-10aeadc9255c">
+  <name>КонтурЛогистика_ЗаполнитьНастройкуДополнительнымиРеквизитами</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заполнить настройку дополнительными реквизитами</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>CatalogRef.КонтурЛогистика_НастройкиКонвертацииСправочников</types>
+    <types>CatalogRef.КонтурЛогистика_НастройкиКонвертацииДокументов</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

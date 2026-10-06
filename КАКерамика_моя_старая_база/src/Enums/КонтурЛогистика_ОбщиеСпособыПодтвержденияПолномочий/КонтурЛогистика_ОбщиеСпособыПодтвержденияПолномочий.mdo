@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6c7c50ad-b8b6-4d53-9960-74920f40fc9d">
+  <producedTypes>
+    <refType typeId="c3764f49-1204-49b7-b503-9a0b51216ff5" valueTypeId="b5188fea-e2cf-4373-ac94-6d0d42c3e8c3"/>
+    <listType typeId="a3ce8836-c9c4-464c-851b-147c97d6dc8f" valueTypeId="448c4e1d-9ef0-4e51-ac66-4baf21bdac46"/>
+    <managerType typeId="02aa7970-1cb6-47b9-92e9-7e5e84ba6f25" valueTypeId="a5e3c1a9-541e-4844-85a7-1e07f0b5a0a7"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ОбщиеСпособыПодтвержденияПолномочий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общие способы подтверждения полномочий</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4746e080-5762-49d4-a2e5-4c81ba342c37">
+    <name>МЧД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Машиночитаемая доверенность (МЧД)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a15a43b0-1b84-401b-80ac-bce15c3da7f8">
+    <name>БумажнаяДоверенность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бумажная доверенность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b2cd572b-2615-4f0e-8bef-82e78cbaf9d9">
+    <name>БезДоверенности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без доверенности</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

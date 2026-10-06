@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e5e39e7-37a2-4a47-87ec-1308e01dbcfd">
+  <producedTypes>
+    <refType typeId="5deab264-b65e-445d-8e15-8d817ac39ee5" valueTypeId="7aa9a748-1753-4b79-8944-ef37d98436c3"/>
+    <listType typeId="2a90f982-d8fa-44e5-a427-0197f5381dc2" valueTypeId="19eaca27-57e9-4a5e-9657-c4c12cefda49"/>
+    <managerType typeId="837291b0-de6c-4348-a603-034eb15b836e" valueTypeId="be5b61c0-ca1a-476c-b958-4ab276a2b349"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ВидыТранспорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды транспорта</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0dd611fc-a761-42c6-ab5d-5aee49b7a441">
+    <name>_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автомобильный транспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="375f8d98-7390-40cc-acdc-2271b040f2c6">
+    <name>_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний водный транспорт </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eff502c2-f7c9-4acf-9329-15f5e6e95985">
+    <name>_3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Воздушный транспорт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eef4f3ac-df2c-4c44-bab7-a1124a94bf8b">
+    <name>_4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Железнодорожный транспорт </value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d4c14121-b99d-4c1e-9358-377f25139fa4">
+    <name>_5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Морской транспорт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

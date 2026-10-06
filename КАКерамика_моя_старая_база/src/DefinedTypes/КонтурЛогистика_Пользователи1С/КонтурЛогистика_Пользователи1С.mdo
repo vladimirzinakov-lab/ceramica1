@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="57896eff-63ab-4f1f-a2db-d5f347059be0">
+  <producedTypes>
+    <containerType typeId="2882c56a-988e-4631-9867-8751f5dd6391" valueTypeId="93d04589-1ada-49ca-893a-9c19ddd76de6"/>
+  </producedTypes>
+  <name>КонтурЛогистика_Пользователи1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур логистика пользователи1 С</value>
+  </synonym>
+  <comment>Указывается справочник Пользователей в учетной системе (основной конфигурации)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

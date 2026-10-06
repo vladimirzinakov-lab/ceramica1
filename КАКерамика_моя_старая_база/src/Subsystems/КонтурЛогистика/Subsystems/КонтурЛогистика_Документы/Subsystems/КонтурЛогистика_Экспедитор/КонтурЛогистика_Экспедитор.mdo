@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51fd3153-eb95-4395-a7e8-ab25453bf124">
+  <name>КонтурЛогистика_Экспедитор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур логистика экспедитор</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.КонтурЛогистика_ПЭ_ЗаявкаНаМаршрут</content>
+  <content>Document.КонтурЛогистика_ПЭ_Титул1</content>
+  <content>Document.КонтурЛогистика_ПЭ_Титул2</content>
+  <parentSubsystem>Subsystem.КонтурЛогистика.Subsystem.КонтурЛогистика_Документы</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="318f3399-71af-471a-ab61-55df9e05819c">
+  <producedTypes>
+    <containerType typeId="70049489-0a19-473e-9754-f5c455e02f77" valueTypeId="67fecaf2-aab3-4609-8a7d-78ff8a0beb94"/>
+  </producedTypes>
+  <name>КонтурЛогистика_Подразделение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур логистика подразделение</value>
+  </synonym>
+  <comment>Указывается справочник, отвечающий за орг структуру организаций  в учетной системе (основной конфигурации)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

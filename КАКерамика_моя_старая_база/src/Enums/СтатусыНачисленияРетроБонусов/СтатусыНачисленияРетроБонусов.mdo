@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f72d4f0c-95f4-4175-9732-b2fdcc61bb4c">
+  <producedTypes>
+    <refType typeId="73fd5db2-8a89-42b3-87d3-329d5215f6c1" valueTypeId="ecf3aa83-3439-4fc3-a0b7-bc184cd23518"/>
+    <listType typeId="f5f5bcd8-e0c5-4cc6-b170-02cd14e10539" valueTypeId="6c65aecd-050b-4582-8619-48518b76744e"/>
+    <managerType typeId="1b37d033-5b11-4149-a240-56e8e478356d" valueTypeId="5830b033-c6c7-4f48-9b33-9c126d22cfdb"/>
+  </producedTypes>
+  <name>СтатусыНачисленияРетроБонусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы начисления ретро бонусов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="32fffaa0-6369-4690-a13a-ced58934ff58">
+    <name>Создано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="974d024f-d8a4-426d-9904-dda3179dfe64">
+    <name>Подготовлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовлено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0fd4c21-bfd8-40b1-a282-0e1e0f64d566">
+    <name>Выполнено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

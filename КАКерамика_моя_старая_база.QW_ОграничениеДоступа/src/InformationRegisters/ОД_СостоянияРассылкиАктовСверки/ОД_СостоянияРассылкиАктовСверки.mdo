@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e14b2a1-37d0-4803-aacc-b004e010c7df">
+  <producedTypes>
+    <selectionType typeId="d48dc3b5-aaa6-416c-927a-0f02a695e033" valueTypeId="757fcca1-01f2-4c5f-b39b-fb08c59a1bbf"/>
+    <listType typeId="3ca21c4c-f3af-45f2-8b5d-32b33055c52b" valueTypeId="bf672fb7-dcde-4e12-a163-cd2f108545e7"/>
+    <managerType typeId="6e65229f-0dd9-42cf-8ecb-cbe1f37f3012" valueTypeId="d3d56e3f-8282-4485-af09-2c96f7797955"/>
+    <recordSetType typeId="f168de30-45c3-409d-80f1-0400a3ee55ee" valueTypeId="000a54a3-6f86-46b3-a7a1-a74b32ba76a4"/>
+    <recordKeyType typeId="ee05a7ed-b8b5-4561-b8f6-1c0aa983908d" valueTypeId="df2d48ea-11ce-4754-b9fa-b64d5a4c9719"/>
+    <recordType typeId="bc3611ab-16b3-438a-9306-2712c1a9943e" valueTypeId="7d860243-f6b3-4cea-98b3-733bec7f6d17"/>
+    <recordManagerType typeId="d65f034f-a412-4b7f-9f4b-0c2626b343e7" valueTypeId="02980dcd-5561-401d-bcbd-35f029ba5e90"/>
+  </producedTypes>
+  <name>ОД_СостоянияРассылкиАктовСверки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния рассылки актов сверки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="409ed120-f643-4578-8316-bef66c0d79bb">
+    <name>Отправлено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлено</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="d4898f9b-6e5a-4c10-89f7-1dafeb9d7dc9">
+    <name>СверкаВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сверка взаиморасчетов</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.СверкаВзаиморасчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

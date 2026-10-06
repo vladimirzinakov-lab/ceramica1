@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7a143fa9-4993-4995-bffc-faadadf2f5b5" extendedConfigurationObject="13b2cb8e-76e1-4f80-a786-e1473913af81">
+  <producedTypes>
+    <objectType typeId="09e257b2-c3ed-4bda-8498-149cdd05c1c7" valueTypeId="af7bee6b-1340-45a7-8569-385fdd06c79e"/>
+    <managerType typeId="197d5909-9fc2-49e3-8535-ca3f4f247bf8" valueTypeId="218c9900-1b35-401c-a155-6f54e99091c2"/>
+  </producedTypes>
+  <name>ПоступлениеИОтгрузкаТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ReportExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+</mdclass:Report>

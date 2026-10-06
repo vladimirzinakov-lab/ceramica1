@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="2ae7b9bc-7960-4013-9d12-2a2debecb56e" extendedConfigurationObject="3404cb9a-92ea-42b9-9086-ad481dbc27d7">
+  <producedTypes>
+    <objectType typeId="00f0f3d4-98bd-4200-bc42-0154704a71ad" valueTypeId="e16cb93a-3f7f-4a0b-8752-9ccc315df5f9"/>
+    <refType typeId="75673e05-8067-4064-a2a1-ae073493ebe4" valueTypeId="f1c096d2-7e13-4c16-baf8-773c5c5f1e82"/>
+    <selectionType typeId="54913fb6-2421-4618-babc-915b94c67040" valueTypeId="da39ab00-6740-4441-b687-a68dd2ad7777"/>
+    <listType typeId="1640a24b-69ce-4469-b987-81b51157cd31" valueTypeId="40f746ae-bf43-46f7-a628-4d4b8e33f918"/>
+    <managerType typeId="c376eefb-79a0-4e81-8c95-58fcad1ce6a6" valueTypeId="99e7031e-80d5-4e31-81ed-b627efdd1136"/>
+  </producedTypes>
+  <name>ДоговорыКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="afc16390-b8a7-403b-a3b3-ffd46f2724d6" extendedConfigurationObject="6fe24eab-4e23-451e-8cae-c25d6e78e3df">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="5788103c-5460-4553-8a8a-c51df7f90243" extendedConfigurationObject="8a2605ff-98ff-4bd6-8f43-ab6f25a3fcda">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="998b4dc1-1881-4a67-8618-5057df5a098e" extendedConfigurationObject="92fb5452-6c85-4d20-915a-3faee12eda7d">
+    <name>ТипДоговора</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыДоговоров</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

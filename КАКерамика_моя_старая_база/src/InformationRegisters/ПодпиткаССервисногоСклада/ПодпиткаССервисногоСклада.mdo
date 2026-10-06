@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cf870f5a-076d-4918-9def-886bb498828c">
+  <producedTypes>
+    <selectionType typeId="ddf7f49a-2606-4cca-9a1c-963058cec294" valueTypeId="defa0a8b-2b48-4fc0-adfc-ac9aa52d0383"/>
+    <listType typeId="3136ad01-479c-4be4-8158-2ee3d004ba76" valueTypeId="9062ea81-b320-4be2-8537-4e8427f8709f"/>
+    <managerType typeId="47bac86c-0e6f-4765-ba6f-eb405bae5c61" valueTypeId="c8d380a4-2580-4dd6-8dbe-b8b62ea975a7"/>
+    <recordSetType typeId="be62f1fe-0e8c-44b1-9209-87a49d854d2a" valueTypeId="df465cf2-edd5-4325-af36-bcbf47cfd751"/>
+    <recordKeyType typeId="a849e1d5-f411-4427-8739-dd16e5bbe268" valueTypeId="58a77abf-71b0-4523-8654-901989a2d62c"/>
+    <recordType typeId="f5011713-1f87-4d00-a587-d51eeb5d4432" valueTypeId="71faf099-f549-4f03-9dba-c2a3da1ff3f1"/>
+    <recordManagerType typeId="ce53c2a2-08e4-483f-a14b-345de157e250" valueTypeId="87e89acd-9935-491d-9d18-1730231f5b03"/>
+  </producedTypes>
+  <name>ПодпиткаССервисногоСклада</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подпитка с сервисного склада</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПодпиткаССервисногоСклада.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1b95e053-0250-4820-a168-f48035354d0b">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="6e97b8d4-bcfb-4975-9747-95fdc38aaf6b">
+    <name>Номенклатура</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="ddba9620-e7b4-4d04-ae7d-d047b2d9028d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

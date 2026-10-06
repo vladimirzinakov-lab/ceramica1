@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a4c8f1b2-6d3e-4a91-9c7f-2e8b5d1a0f63">
+  <producedTypes>
+    <containerType typeId="c7e2a4b1-8f5d-4c3a-9b2e-1d6f8a0c4e72" valueTypeId="f3b9d2e1-7a4c-4f8b-9e6d-5c1a2b8f0d34"/>
+  </producedTypes>
+  <name>КонтурЛогистика_РазделительДокументаУчетнойСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур логистика разделитель документа учетной системы</value>
+  </synonym>
+  <comment>Значение разделителя при вводе логистического документа из учетного: справочник, перечисление, примитив или документ учетной системы</comment>
+  <type>
+    <types>EnumRef.КонтурЛогистика_ИнициаторыПереадресовки</types>
+    <types>EnumRef.КонтурЛогистика_ВидыКонтактнойИнформации</types>
+    <types>EnumRef.КонтурЛогистика_ТипыЛиц</types>
+    <types>EnumRef.КонтурЛогистика_УровниДоступаСотрудника</types>
+    <types>DocumentRef.КонтурЛогистика_Вспомогательный</types>
+    <types>Boolean</types>
+    <types>EnumRef.КонтурЛогистика_ГруппыУпаковки</types>
+    <types>EnumRef.КонтурЛогистика_ВидыВладенияТранспортнымСредством</types>
+    <types>EnumRef.КонтурЛогистика_МетодыОпределенияМассы</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>EnumRef.КонтурЛогистика_КлассыОпасностиГрузов</types>
+    <numberQualifiers>
+      <precision>18</precision>
+      <scale>4</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1000</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+</mdclass:DefinedType>

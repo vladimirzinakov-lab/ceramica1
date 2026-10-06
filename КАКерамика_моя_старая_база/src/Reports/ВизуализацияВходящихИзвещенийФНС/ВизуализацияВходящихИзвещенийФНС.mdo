@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb92bea9-d8f4-4f5f-aac4-0be7b9643782">
+  <producedTypes>
+    <objectType typeId="ad310eab-63f0-48e6-944c-6e4b11ff9657" valueTypeId="25aa3fe5-799d-4360-b826-30ec2a3e64a3"/>
+    <managerType typeId="c2fcd6b9-5f38-4609-8661-3c927906bd43" valueTypeId="517a0dbb-fc3e-4fa0-958a-2872764bf5b7"/>
+  </producedTypes>
+  <name>ВизуализацияВходящихИзвещенийФНС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Визуализация входящих извещений ФНС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ВизуализацияВходящихИзвещенийФНС.Form.ФормаПечати</defaultForm>
+  <forms uuid="6cd56899-a90e-4deb-babc-f95334b6b4ec">
+    <name>ФормаПечати</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма печати</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="96fa8b1c-d3e3-4113-94a5-40aec2b326b2">
+    <name>СообщениеОбИсчисленныхСуммахНалогов501</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение об исчисленных суммах налогов</value>
+    </synonym>
+  </templates>
+  <templates uuid="5059dae6-33ae-485c-8d78-aed1a5a8a346">
+    <name>СообщениеОбИсчисленнойСуммеЗемельногоНалога501</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение об исчисленной сумме земельного налога</value>
+    </synonym>
+  </templates>
+  <templates uuid="78703324-d086-4e06-856b-5d644796f6a5">
+    <name>СообщениеОбИсчисленнойСуммеТранспортногоНалога501</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение об исчисленной сумме транспортного налога</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

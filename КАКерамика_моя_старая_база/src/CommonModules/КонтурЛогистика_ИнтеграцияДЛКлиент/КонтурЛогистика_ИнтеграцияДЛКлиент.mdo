@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b079853-734e-46c8-8346-70af90e6ddee">
+  <name>КонтурЛогистика_ИнтеграцияДЛКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с Деловыми Линиями (клиентский)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

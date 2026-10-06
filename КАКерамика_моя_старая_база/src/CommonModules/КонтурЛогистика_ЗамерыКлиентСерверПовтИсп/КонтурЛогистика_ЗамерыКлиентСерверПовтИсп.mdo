@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1830a5cc-8f7e-4345-be89-17346744c8c3">
+  <name>КонтурЛогистика_ЗамерыКлиентСерверПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замеры клиент сервер (Контур.Логистика)</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0fff60ff-8133-4fb0-859c-0b3afec42670" extendedConfigurationObject="bc51e744-f22b-4a4d-9db1-4032f96cd184">
+  <producedTypes>
+    <selectionType typeId="0930e63a-dd11-44bc-bea6-8c93d934c507" valueTypeId="1dd89586-a890-4caf-8cb8-6bd18aab6440"/>
+    <listType typeId="caca5887-f5be-437b-bbc1-2f96754c879b" valueTypeId="a60ef803-7bd8-4955-8b24-6240e18a2df6"/>
+    <managerType typeId="e87c878c-dd68-48ab-9e76-a8b235aeea74" valueTypeId="ac6aced7-a038-441f-9fcc-d5168b659424"/>
+    <recordSetType typeId="773d78ac-ee80-4bf6-a14a-4e2d34543b28" valueTypeId="4db61bc6-2975-4364-b461-acdfb2626338"/>
+    <recordKeyType typeId="37cadd8e-c03e-4b97-b180-32b6087c19f2" valueTypeId="8423881e-aef9-4333-b521-0cf6fa037d27"/>
+    <recordType typeId="c1dfaa93-8345-47c2-a648-d6035ad06d89" valueTypeId="30a84403-64d5-41f1-9a49-617288416bd9"/>
+    <recordManagerType typeId="ee048f3e-91bd-4451-b6bd-21a2f75b02b3" valueTypeId="453b939d-b0e3-47fe-bd62-3fd4dc9346a4"/>
+  </producedTypes>
+  <name>СостоянияЗаказовКлиентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="b2b7bfc9-fc93-427b-ba21-66b40ae3e688" extendedConfigurationObject="3b7c75dc-9f63-4ed2-aaa6-9baa9da4c61f">
+    <name>Состояние</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <attributes uuid="b0a71d00-5fc5-4e9c-b1b2-58603177ba36" extendedConfigurationObject="7cb49e74-a821-4467-b425-a76c08ce8cfb">
+    <name>ПроцентОтгрузки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="6d688958-d6aa-40c2-8bf3-81afe0c9167e" extendedConfigurationObject="06fc4d96-5fd4-4645-a624-fde2fbcb96c4">
+    <name>СуммаДолга</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="a3d3f138-11b5-4962-9093-cc52b483a1c6" extendedConfigurationObject="bd2be026-965b-41c0-8b56-93a2bb5afbef">
+    <name>СуммаОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="79a19455-3cd0-4af9-a399-0e5e93d80f7b" extendedConfigurationObject="c604faef-7462-4a83-8144-3ef6c1bce4bd">
+    <name>ПроцентОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="67466a2a-cdfd-4774-9de9-265959a25c30" extendedConfigurationObject="230b39a5-62c8-4498-bace-5e0a66ded39c">
+    <name>СуммаОтгрузки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="3b5f8372-4063-475f-b245-16db8b01355e" extendedConfigurationObject="6f24a5f0-5952-4d29-9631-f790ff3b91af">
+    <name>ПроцентДолга</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <dimensions uuid="7dbe76f7-e0f6-48c2-a321-a3bedca6ff1e" extendedConfigurationObject="908232c3-529c-4c04-9bdd-98d3cf6d8483">
+    <name>Заказ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13ac3681-31c5-4dd5-857e-8f4058648f12">
+  <producedTypes>
+    <objectType typeId="b5c1af69-608c-4c7c-a468-14b42b1f2d69" valueTypeId="70f56e98-ae3b-4e2d-a0ab-5721a3e80025"/>
+    <managerType typeId="387ff23e-0ced-487c-9c27-c2996d4a3235" valueTypeId="ca4f648f-08fa-4a4d-828f-b0147f49efe8"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ФиасКлиент</name>
+  <synonym>
+    <key>ru</key>
+    <value>Клиент API ФИАС (Контур.Логистика)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонтурЛогистика_ФиасКлиент.Form.ВводАдреса</defaultForm>
+  <forms uuid="02c1fa32-4708-4698-9edf-1921b2159045">
+    <name>ВводАдреса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод адреса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

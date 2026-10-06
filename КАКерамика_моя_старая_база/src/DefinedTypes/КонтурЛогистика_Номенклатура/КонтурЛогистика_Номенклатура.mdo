@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="def573b2-2856-4654-ac1a-37257fcb2538">
+  <producedTypes>
+    <containerType typeId="c9878138-f023-4d85-9ab9-65a5e8b070db" valueTypeId="b5a3af77-99e5-4bd5-889a-c36dfaccfee6"/>
+  </producedTypes>
+  <name>КонтурЛогистика_Номенклатура</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур логистика номенклатура</value>
+  </synonym>
+  <comment>Соответствует справочнику Номенклатура в учетной системе (основной конфигурации)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

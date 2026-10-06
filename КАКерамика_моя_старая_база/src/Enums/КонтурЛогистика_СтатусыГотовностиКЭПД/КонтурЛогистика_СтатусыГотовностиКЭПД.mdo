@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41fa2b60-9d56-4f69-95e0-e75b16d4e3f6">
+  <producedTypes>
+    <refType typeId="f7b3408a-2816-45d2-90d8-9467bc0886a5" valueTypeId="80087152-1d16-4d49-bac5-3d84d4e4e255"/>
+    <listType typeId="b17ace0b-d67e-4446-9456-67396ae8fccb" valueTypeId="c75b85ee-c2c6-43e6-8d86-de13dd75bfcb"/>
+    <managerType typeId="7c50e298-f6d2-4e26-bc65-eee1581f552a" valueTypeId="683bcbc0-bae5-420d-833e-dbd12f108db6"/>
+  </producedTypes>
+  <name>КонтурЛогистика_СтатусыГотовностиКЭПД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы готовности к ЭПД (Контур.Логитсика)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a97f18c9-5334-4cd2-a97a-9965cfc6978e">
+    <name>Ready</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2436f5b-8f47-4389-b3fa-63f28af56c43">
+    <name>NotReady</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не готов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e92356d2-a785-4f42-8fc1-b50ac23deb83">
+    <name>UnknownEpdStatus</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не подтвердил</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc06ff16-31f6-4e6c-a6ae-9d1ceb653704">
+    <name>UndefinedEpdStatus</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не подтвердил</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

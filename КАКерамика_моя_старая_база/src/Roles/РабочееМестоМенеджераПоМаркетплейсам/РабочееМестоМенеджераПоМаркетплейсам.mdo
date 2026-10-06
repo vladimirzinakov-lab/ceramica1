@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8f2aeae-43cc-43b8-be41-3e5fb0b2d25e">
+  <name>РабочееМестоМенеджераПоМаркетплейсам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рабочее место менеджера по маркетплейсам</value>
+  </synonym>
+</mdclass:Role>

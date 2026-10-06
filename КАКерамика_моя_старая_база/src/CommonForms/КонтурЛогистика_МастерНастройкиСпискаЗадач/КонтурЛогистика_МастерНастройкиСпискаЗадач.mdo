@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5c98d4e-5ff9-460f-9725-b7c9f378c5d7">
+  <name>КонтурЛогистика_МастерНастройкиСпискаЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки типов документов</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

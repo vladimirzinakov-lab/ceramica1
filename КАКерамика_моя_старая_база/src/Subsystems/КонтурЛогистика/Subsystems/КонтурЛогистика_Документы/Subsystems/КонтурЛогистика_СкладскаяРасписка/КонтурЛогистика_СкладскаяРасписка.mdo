@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c21b9a94-8985-4a36-8621-367d8f9ac73c">
+  <name>КонтурЛогистика_СкладскаяРасписка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Складская расписка</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Document.КонтурЛогистика_ЭкспедиторскаяРасписка</content>
+  <content>Role.КонтурЛогистика_ДобавлениеИзменениеЭлектронныхЭкспедиторскихДокументов</content>
+  <content>Role.КонтурЛогистика_ЧтениеЭлектронныхЭкспедиторскихДокументов</content>
+  <content>Document.КонтурЛогистика_СкладскаяРасписка</content>
+  <parentSubsystem>Subsystem.КонтурЛогистика.Subsystem.КонтурЛогистика_Документы</parentSubsystem>
+</mdclass:Subsystem>

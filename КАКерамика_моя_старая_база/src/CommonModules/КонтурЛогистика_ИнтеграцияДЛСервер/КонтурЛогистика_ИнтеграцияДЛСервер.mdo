@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ab0271f4-f6c0-43f3-8f24-164b9b4d358b">
+  <name>КонтурЛогистика_ИнтеграцияДЛСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интеграция с Деловыми Линиями (серверный)</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+</mdclass:CommonModule>

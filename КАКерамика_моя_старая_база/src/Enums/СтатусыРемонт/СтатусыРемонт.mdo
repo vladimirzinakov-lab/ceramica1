@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="426f385d-4719-425a-a879-f1322e36661f">
+  <producedTypes>
+    <refType typeId="4657af16-f2af-4d74-a39e-39b7ada9e0e2" valueTypeId="b7116d64-7f0f-41e2-a0a1-f60155b9fc65"/>
+    <listType typeId="67a74cd9-2f32-48c6-8a0b-d57b7b0f27b7" valueTypeId="03dfc3b0-e275-4df9-ad95-09b1dca2f7f0"/>
+    <managerType typeId="f9c6a747-f066-4ce4-a4d6-30ecb65e027f" valueTypeId="d4696ec2-d840-4732-b2bd-1d3f6d64d44c"/>
+  </producedTypes>
+  <name>СтатусыРемонт</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы ремонт</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="7d6c025e-d2b8-47a8-8b86-ab9799680573">
+    <name>Создан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a21f7663-961a-46c4-bc2b-7cc8d3e6189c">
+    <name>ВРаботе</name>
+    <synonym>
+      <key>ru</key>
+      <value>В работе</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f94c6a74-e8d4-44b2-8a7a-e2dcc890af47">
+    <name>Закрыт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыт</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

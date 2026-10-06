@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7a3cb66-17a1-4ee4-a88b-b1f712d8f05f">
+  <producedTypes>
+    <containerType typeId="e0ad6140-cffd-469a-9eac-8f86f6f1a3bb" valueTypeId="67f1ca4c-923a-4df5-a285-cca10c9a26fd"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ФизическиеЛица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Физические лица</value>
+  </synonym>
+  <comment>Указывается справочник физических лиц, сотрудников и водителей (в том числе строки если нет справочника)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

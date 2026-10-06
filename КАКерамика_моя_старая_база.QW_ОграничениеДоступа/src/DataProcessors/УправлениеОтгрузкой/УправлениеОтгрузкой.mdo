@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="985c8d15-6170-4f14-9d5b-07157f981ed3" extendedConfigurationObject="989dc785-2e91-434d-8797-f37b9863becf">
+  <producedTypes>
+    <objectType typeId="43a6c0e1-c149-4878-a824-882d8afb3efc" valueTypeId="634decfa-4a0e-4d2a-8853-5c6d7af30fb5"/>
+    <managerType typeId="22b7ff50-1bc3-468f-9748-1f5b8f449ea4" valueTypeId="659ef54f-0785-453b-aa36-c1ecb1147420"/>
+  </producedTypes>
+  <name>УправлениеОтгрузкой</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="be8de937-6577-48df-9e0e-47a43432b86d" extendedConfigurationObject="6414f3bd-d458-466a-89db-cf9769a6d004">
+    <name>Форма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

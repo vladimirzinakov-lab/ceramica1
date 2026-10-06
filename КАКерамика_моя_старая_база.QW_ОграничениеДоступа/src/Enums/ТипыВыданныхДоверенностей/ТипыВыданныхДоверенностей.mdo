@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1e7ed9d5-baf9-41f5-865b-adf64656ffd4" extendedConfigurationObject="9cf02dc6-2951-47f8-a1cb-6da632e85c01">
+  <producedTypes>
+    <refType typeId="2349bc45-89c6-4ba9-97ef-3e53f91d180f" valueTypeId="b445b3b4-1c49-4454-9197-6d4dc22c2281"/>
+    <listType typeId="5dc40004-676a-4d0b-93b4-b8a287a99d84" valueTypeId="c9e7ec2a-9387-46f1-bdc3-7c0a4f34ab28"/>
+    <managerType typeId="53efcc27-0506-4edd-816a-11899955c7b7" valueTypeId="3e29d903-0352-4955-8053-967d20617f68"/>
+  </producedTypes>
+  <name>ТипыВыданныхДоверенностей</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="789d331d-2993-41da-9c04-feb2938b16bf" extendedConfigurationObject="e7539411-2467-458f-a079-28f296e32a33">
+    <name>НаПолучениеДС</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62c488d6-b9fb-423e-8816-4b1a0063a666">
+  <name>КонтурЛогистика_ПодготовитьНеподписанныйКОтправке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отправить черновик в фоне</value>
+  </synonym>
+  <group>CommandGroup.КонтурЛогистика_КомандыВводаДокументов</group>
+  <commandParameterType>
+    <types>DefinedType.КонтурЛогистика_ОбщаяКомандаДокументыУчетнойСистемыИДокументыКонтурЛогистика</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>PictureAndText</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>И в дальнейшем согласовать или подписать в другом интерфейсе</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КонтурЛогистика_ОтправитьПозжеНеподписанный</picture>
+  </picture>
+</mdclass:CommonCommand>

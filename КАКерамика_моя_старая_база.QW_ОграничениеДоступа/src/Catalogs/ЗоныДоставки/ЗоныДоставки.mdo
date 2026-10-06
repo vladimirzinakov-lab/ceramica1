@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9350d157-2a62-453b-a018-c5332ae7a64c" extendedConfigurationObject="ba5d890b-de2b-42a0-afe2-c800460fc050">
+  <producedTypes>
+    <objectType typeId="d90c1015-bd07-4a78-ae00-318f94c3b4aa" valueTypeId="7ce45b7e-52a4-4316-a5b5-4c84ce321cb7"/>
+    <refType typeId="d801ac59-8938-47ae-80b2-1be7c088d1e0" valueTypeId="ce1e97cb-6abf-4e3e-8cfe-6548e668ae0e"/>
+    <selectionType typeId="016b28d5-afdb-414e-af1e-cdfc0f9ab335" valueTypeId="15565154-86cb-4933-920b-d7092d5d6fe0"/>
+    <listType typeId="907f951f-0c92-4572-9975-f52f9a788fcf" valueTypeId="bcc5c648-6a05-4780-aeb7-76db9304e708"/>
+    <managerType typeId="a0881721-9c75-4bcf-a1db-0ca8c41a39cf" valueTypeId="07cd61ff-ac7e-4ed2-aa59-102f3e12bd46"/>
+  </producedTypes>
+  <name>ЗоныДоставки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

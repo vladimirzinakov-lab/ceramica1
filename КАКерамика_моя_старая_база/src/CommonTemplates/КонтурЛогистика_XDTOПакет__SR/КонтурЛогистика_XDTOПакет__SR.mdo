@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06a87d18-fa52-47c2-806a-1c548a189750">
+  <name>КонтурЛогистика_XDTOПакет__SR</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур логистика __SR</value>
+  </synonym>
+  <templateType>TextDocument</templateType>
+</mdclass:CommonTemplate>

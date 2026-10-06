@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e9f99ec-ac9b-4512-99e6-1d174cd573f3">
+  <producedTypes>
+    <objectType typeId="d7c46f8d-a8a5-4418-8add-07edf91f6cd1" valueTypeId="b4a30a8e-bea3-4855-b0ce-d8cc38365d97"/>
+    <refType typeId="07d074ac-ba88-4ddd-aa98-d76c4677f517" valueTypeId="077704ae-253a-4a30-b2f1-1087dc8a9791"/>
+    <selectionType typeId="c8189047-ddec-4594-ac57-1f8a875c6663" valueTypeId="1c29730a-a236-4770-a50d-f48a94b28a1d"/>
+    <listType typeId="393ac3af-d143-459e-b690-7708aefc0037" valueTypeId="e95e3d5d-0efe-4c24-9ae6-e185eb849153"/>
+    <managerType typeId="ddebdaa7-3d82-44fe-aed7-2390eb7280c2" valueTypeId="29731a5b-20b0-4923-a560-535304327a12"/>
+  </producedTypes>
+  <name>ОписанияДефектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Описания дефектов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОписанияДефектов.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

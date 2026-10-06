@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98b70f36-b87d-4827-baba-43dca609f813">
+  <producedTypes>
+    <objectType typeId="22ef8f9e-a4e7-47b9-a977-70a713557ee0" valueTypeId="d162df47-1ba1-4a2a-ae64-94f29d573b18"/>
+    <refType typeId="b093fd6a-53f4-4f46-bad9-91e9db31b344" valueTypeId="a2029086-f423-407d-a7b4-40818ed3ae5b"/>
+    <selectionType typeId="d2bae8c1-2cfd-44ab-a82d-7e915abbd41c" valueTypeId="eefbeec2-5bf0-4a88-8105-4f1d0720fd38"/>
+    <listType typeId="5262bbb5-2d3d-42ac-95da-96b216f2ec90" valueTypeId="a104694f-3064-439f-bb5f-53183cbc0785"/>
+    <managerType typeId="c2bf73f6-3b8d-41e6-a091-ac564823ea7e" valueTypeId="52e7f17a-7be9-4753-8ae3-917bac9a7973"/>
+  </producedTypes>
+  <name>РемонтРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ремонт работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РемонтРаботы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.РемонтРаботы.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

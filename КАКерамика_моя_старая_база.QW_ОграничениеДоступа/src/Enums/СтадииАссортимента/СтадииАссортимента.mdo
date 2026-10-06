@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="62a91524-5504-41c1-b3dd-1a4e26f251fa" extendedConfigurationObject="b1af6ecc-26d0-4d45-ae9e-f56c312900e2">
+  <producedTypes>
+    <refType typeId="37301565-7f3f-4703-983d-b914e07311de" valueTypeId="361a7e49-dba4-4a2a-8f1c-47f22747878a"/>
+    <listType typeId="9c53d84e-4a23-4821-a494-efac3afdefd8" valueTypeId="fb05201e-e7c9-4673-b435-8a92bbbf188b"/>
+    <managerType typeId="c6da00e0-479d-4321-915a-f9511df7656d" valueTypeId="170a018d-c2ea-44c9-839d-9d5e4957fc99"/>
+  </producedTypes>
+  <name>СтадииАссортимента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Enum>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4e05c2c-0c74-4635-a22f-ea5296ad5ecd">
+  <name>КонтурЛогистика_АвтоматическаяОтправкаВТелеграм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Автоматическая отправка в Телеграм (Контур.Логистика)</value>
+  </synonym>
+  <methodName>CommonModule.КонтурЛогистика_РегламентныеЗадания.КонтурЛогистика_АвтоматическаяОтправкаВТелеграм</methodName>
+  <description>Автоматическая отправка в Телеграм (Контур.Логистика)</description>
+  <key>КонтурЛогистика_АвтоматическаяОтправкаВТелеграм</key>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

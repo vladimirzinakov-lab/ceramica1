@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca1d0c72-39d2-4087-b07f-edc40dcb1382">
+  <name>КонтурЛогистика_СтатусыГотовностиКЭПД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур логистика статусы готовности КЭПД</value>
+  </synonym>
+</mdclass:CommonPicture>

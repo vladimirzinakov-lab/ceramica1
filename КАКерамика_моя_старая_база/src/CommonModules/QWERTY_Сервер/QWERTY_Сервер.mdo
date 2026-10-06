@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d695b37-3c5d-4ff9-b6b2-b11673dc4b4d">
+  <name>QWERTY_Сервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>QWERTY сервер</value>
+  </synonym>
+  <server>true</server>
+  <serverCall>true</serverCall>
+  <privileged>true</privileged>
+</mdclass:CommonModule>

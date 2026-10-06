@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f2e28f7-eb15-4090-8e58-ce07c4be6224">
+  <producedTypes>
+    <refType typeId="1078467d-cb03-45a4-ab57-6c39f749afbc" valueTypeId="5797ff93-58ce-4f00-a39c-ec56d06b71c9"/>
+    <listType typeId="35a832b3-55f1-4750-ba65-dc818a48a414" valueTypeId="117d11a5-59a8-411f-98ad-f937878fcd77"/>
+    <managerType typeId="b575646d-fa4f-48d9-be00-b4d3de16c0b6" valueTypeId="02fe5841-7362-43c6-83d3-7567248773f9"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ИнициаторыПереадресовки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Инициаторы переадресовки (Контур.Логистика)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2f1d63a0-7cb2-4414-a686-578dcab9dfb5">
+    <name>Грузоотправитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузоотправитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4bcca44-5e6f-4165-b526-6b8de49cbce6">
+    <name>Грузополучатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Грузополучатель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

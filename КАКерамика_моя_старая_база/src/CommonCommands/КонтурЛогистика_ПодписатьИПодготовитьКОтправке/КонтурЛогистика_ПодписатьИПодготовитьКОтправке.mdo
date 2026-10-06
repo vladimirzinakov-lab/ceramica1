@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73e81c6c-77e2-4c10-8651-57422160b240">
+  <name>КонтурЛогистика_ПодписатьИПодготовитьКОтправке</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подписать и отправить в фоне</value>
+  </synonym>
+  <group>CommandGroup.КонтурЛогистика_КомандыВводаДокументов</group>
+  <commandParameterType>
+    <types>DefinedType.КонтурЛогистика_ОбщаяКомандаДокументыУчетнойСистемыИДокументыКонтурЛогистика</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>PictureAndText</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Сформировать файлы обмена, подписать и сразу отправить в Диадок</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КонтурЛогистика_ОтправитьПозжеПодписанный</picture>
+  </picture>
+</mdclass:CommonCommand>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="4ff8f521-afc1-4cb6-be7a-61a88f9e08ad" extendedConfigurationObject="73380bb1-bee3-4b73-a3df-1dbea99011d2">
+  <producedTypes>
+    <objectType typeId="c289ecdf-8f4e-437b-9b16-084bc5798388" valueTypeId="aea449c0-01e6-4383-b67e-e92caf6462a3"/>
+    <managerType typeId="26b90cb3-30b4-4bcf-9312-dec2e316d3bb" valueTypeId="ef9bb456-323f-4b6a-b1c6-00a631b0a900"/>
+  </producedTypes>
+  <name>РасширенныйВводКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="b7d3a225-8c58-4681-90b6-45c2abc65de0" extendedConfigurationObject="8be29533-38de-413d-b420-7dac2e80af6c">
+    <name>ВводАдреса</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

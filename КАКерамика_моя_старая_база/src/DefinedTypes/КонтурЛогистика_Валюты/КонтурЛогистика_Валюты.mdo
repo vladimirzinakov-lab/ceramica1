@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce15ff0e-7206-4145-b223-a2c99ff40ea8">
+  <producedTypes>
+    <containerType typeId="e112b22c-5c72-43e6-8c23-b87ad9a5218c" valueTypeId="38de3a79-f61a-4a01-be0f-fdc385eb73c0"/>
+  </producedTypes>
+  <name>КонтурЛогистика_Валюты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур логистика валюты</value>
+  </synonym>
+  <comment>Указывается справочник валют</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

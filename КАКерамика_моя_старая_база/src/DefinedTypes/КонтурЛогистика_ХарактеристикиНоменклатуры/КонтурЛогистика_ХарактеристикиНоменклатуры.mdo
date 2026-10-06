@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70bf3186-c3a1-4b34-b50b-0b3e6c01377b">
+  <producedTypes>
+    <containerType typeId="3e34f182-40b3-4716-92cd-6e6da7dba47f" valueTypeId="7a79dbd6-337a-46a9-b3e5-ce989b9bf625"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ХарактеристикиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Характеристики номенклатуры</value>
+  </synonym>
+  <comment>Указывается справочник Характеристик номенклатуры (если характеристик в конфигурации нет - выберите строку)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

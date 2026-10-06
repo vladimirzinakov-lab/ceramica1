@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1244ea9a-0d8b-437a-9c30-77521a6177e0">
+  <producedTypes>
+    <containerType typeId="7fb2662c-76e8-479a-9d77-3178c219006d" valueTypeId="17c62430-c6f5-4397-94c5-1a5ea02c8fec"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ЗначениеНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур логистика значение настроек</value>
+  </synonym>
+  <comment>Как правило не требует изменений, но если вы собираетесь добавить свою настройку со значением из основной конфигурации, укажите этот тип.</comment>
+  <type>
+    <types>CatalogRef.КонтурЛогистика_ОписанияОпасныхГрузов</types>
+    <types>CatalogRef.КонтурЛогистика_ТранспортныеСредства</types>
+    <types>EnumRef.КонтурЛогистика_ИнициаторыПереадресовки</types>
+    <types>CatalogRef.КонтурЛогистика_Сотрудники</types>
+    <types>EnumRef.КонтурЛогистика_ВидыТоплива</types>
+    <types>CatalogRef.КонтурЛогистика_ОрганизацииДиадок</types>
+    <types>EnumRef.КонтурЛогистика_ТипыПрокси</types>
+    <types>EnumRef.КонтурЛогистика_ВидыКонтактнойИнформации</types>
+    <types>EnumRef.КонтурЛогистика_ТипыЛиц</types>
+    <types>EnumRef.КонтурЛогистика_ВариантыПодачиКонтейнера</types>
+    <types>EnumRef.КонтурЛогистика_ЕдиницыИзмеренияГСМ</types>
+    <types>CatalogRef.КонтурЛогистика_Настройки</types>
+    <types>EnumRef.КонтурЛогистика_ТипыЛогистическихДокументов</types>
+    <types>CatalogRef.КонтурЛогистика_ГорючеСмазочныеМатериалы</types>
+    <types>CatalogRef.КонтурЛогистика_Лицензии</types>
+    <types>EnumRef.КонтурЛогистика_ТипыТранспортныхСредств</types>
+    <types>EnumRef.КонтурЛогистика_ФункцииЗаказаЗаявки</types>
+    <types>EnumRef.КонтурЛогистика_ТипыТоплива</types>
+    <types>EnumRef.КонтурЛогистика_МастерДанныеСотрудников</types>
+    <types>EnumRef.КонтурЛогистика_СпособыПередачиМЧД</types>
+    <types>Boolean</types>
+    <types>EnumRef.КонтурЛогистика_ВидыТранспорта</types>
+    <types>EnumRef.КонтурЛогистика_ВидыПутейСообщений</types>
+    <types>EnumRef.КонтурЛогистика_СтавкиНДС</types>
+    <types>EnumRef.КонтурЛогистика_ТипИсполненияЭкспСвоихОбязательст</types>
+    <types>EnumRef.КонтурЛогистика_ГруппыУпаковки</types>
+    <types>CatalogRef.КонтурЛогистика_СтраныМира</types>
+    <types>EnumRef.КонтурЛогистика_ТипСтоимостиГруза</types>
+    <types>EnumRef.КонтурЛогистика_ВариантыПроверкиПолномочийМЧД</types>
+    <types>EnumRef.КонтурЛогистика_ВидыВладенияТранспортнымСредством</types>
+    <types>EnumRef.КонтурЛогистика_МетодыОпределенияМассы</types>
+    <types>CatalogRef.КонтурЛогистика_МЧД</types>
+    <types>EnumRef.КонтурЛогистика_ТипыПМ</types>
+    <types>String</types>
+    <types>EnumRef.КонтурЛогистика_СтороныСоставители</types>
+    <types>EnumRef.КонтурЛогистика_РежимыАвторизации</types>
+    <types>CatalogRef.КонтурЛогистика_Договоры</types>
+    <types>EnumRef.КонтурЛогистика_СпособыСопоставленияТоваровТитул3</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>EnumRef.КонтурЛогистика_СценарииПодписанияТитулов</types>
+    <types>EnumRef.КонтурЛогистика_СпособыПодтвержденияПолномочий</types>
+    <types>CatalogRef.КонтурЛогистика_КлассификаторУпаковок</types>
+    <types>EnumRef.КонтурЛогистика_ОбщиеСпособыПодтвержденияПолномочий</types>
+    <types>EnumRef.КонтурЛогистика_ВариантыВалидации</types>
+    <types>EnumRef.КонтурЛогистика_КлассыОпасностиГрузов</types>
+    <types>CatalogRef.КонтурЛогистика_ПунктыМаршрута</types>
+    <types>CatalogRef.КонтурЛогистика_СостоянияДвиженияДокументооборота</types>
+    <types>EnumRef.КонтурЛогистика_ТипыПоказанийТоплива</types>
+    <types>CatalogRef.КонтурЛогистика_ПодразделенияДиадок</types>
+    <types>EnumRef.КонтурЛогистика_ВидыПеревозки</types>
+    <types>EnumRef.КонтурЛогистика_НаименованиеГИСа</types>
+    <types>EnumRef.КонтурЛогистика_ТипыСопроводительныхДокументов</types>
+    <types>EnumRef.КонтурЛогистика_СценарииРедактированияШаблона</types>
+    <types>EnumRef.КонтурЛогистика_ВидыКоммерческихПеревозок</types>
+    <numberQualifiers>
+      <precision>15</precision>
+      <scale>1</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+</mdclass:DefinedType>

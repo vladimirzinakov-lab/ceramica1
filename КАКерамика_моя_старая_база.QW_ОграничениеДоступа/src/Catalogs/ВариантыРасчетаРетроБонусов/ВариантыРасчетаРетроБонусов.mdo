@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="81132934-78c1-4bac-9853-c4b6228a4481" extendedConfigurationObject="6373dd1c-7758-49c5-94fd-485e31189bfe">
+  <producedTypes>
+    <objectType typeId="41daafaf-419f-4586-a46a-6a3c5eac32f2" valueTypeId="a4f2950f-13f1-4794-a8a1-e2e2a4444169"/>
+    <refType typeId="a204ce9a-8f97-487f-a928-7cd51756249d" valueTypeId="ebf7acf8-8ca4-4322-bf3d-85a500c42b41"/>
+    <selectionType typeId="18b28381-8db7-4977-83d9-d2eba69655b2" valueTypeId="8cea3171-80de-4718-b0c8-0ac261f7614a"/>
+    <listType typeId="1b5c9779-4d6e-41b6-b663-74ee99db9358" valueTypeId="4999dd9e-61be-43d3-8e0c-e5804e5033c9"/>
+    <managerType typeId="e0c66747-c555-4e06-962a-7d7dc8bd6db0" valueTypeId="51d40037-6270-442d-a9e2-22fdaee39a77"/>
+  </producedTypes>
+  <name>ВариантыРасчетаРетроБонусов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0e5cdbe8-df6d-42d5-8d8e-75ad5d2fe790">
+  <producedTypes>
+    <refType typeId="ffea6b1e-4cb4-4a59-a8d5-ad30b3aa71f9" valueTypeId="bf83bddc-e96f-4ff8-aed7-2c0429833620"/>
+    <listType typeId="dc50447d-7761-4375-b6c6-ef1fcbac4282" valueTypeId="c8d71086-cda8-4518-9f4b-b729cfa36738"/>
+    <managerType typeId="53084da2-af2b-4aff-86db-23abed12bd78" valueTypeId="814e2999-1a92-4020-bbaa-bf45d7464372"/>
+  </producedTypes>
+  <name>ПоляПоискаТоваровВ1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поля поиска товаров в1 С</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c0c035a3-7640-4f80-844f-3e885a5e599d">
+    <name>Артикул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Артикул</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5de30cd0-e840-4baf-9f8f-d2da0874d227">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e2f6be05-132f-498d-8712-55c7aa035a77">
+    <name>Штрихкод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Штрихкод</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8e2947e-694b-4b44-94c0-f3eb230819a4">
+  <name>удалить_РабочееМестоМенеджераПоМаркетплейсам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Удалить рабочее место менеджера по маркетплейсам</value>
+  </synonym>
+</mdclass:Role>

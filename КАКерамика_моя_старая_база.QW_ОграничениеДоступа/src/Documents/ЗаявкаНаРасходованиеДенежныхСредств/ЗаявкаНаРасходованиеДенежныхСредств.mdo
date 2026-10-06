@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ae3e3624-4e6c-431c-bb66-fda059086612" extendedConfigurationObject="c97305dd-0349-4b67-ba20-a37c9742ec79">
+  <producedTypes>
+    <objectType typeId="c73e82bf-4017-45c4-b459-78c990e84920" valueTypeId="02d424fb-c7f7-4562-9fd5-e42e7860e16e"/>
+    <refType typeId="8b18d9ab-7616-40e4-97b3-7601496f4c8c" valueTypeId="e8073e3d-3b70-4d94-8a54-c6569e205275"/>
+    <selectionType typeId="2bb01855-d282-49a2-a0c1-66b7f81d0101" valueTypeId="efdfe356-3de9-4ef3-9a13-683967d65a02"/>
+    <listType typeId="099e583d-856a-440e-aae1-6a9d0ce00924" valueTypeId="dd1f70b3-26ca-4338-b867-d190f24ee5e9"/>
+    <managerType typeId="25e76c5b-e981-47d8-ad59-313f3ff9cfef" valueTypeId="590ee90b-4112-4f80-b0ad-7607574356c8"/>
+  </producedTypes>
+  <name>ЗаявкаНаРасходованиеДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="b4346c47-b587-452b-8043-eeaa62aad6ee" extendedConfigurationObject="3e058eee-1b77-4c9f-a821-2f0b28ce9eed">
+    <name>НазначениеПлатежа</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>210</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="8601726a-c250-4428-8cad-e687276df868" extendedConfigurationObject="0bce01ef-621b-4aa2-a600-60561a7c094a">
+    <name>Подразделение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтруктураПредприятия</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

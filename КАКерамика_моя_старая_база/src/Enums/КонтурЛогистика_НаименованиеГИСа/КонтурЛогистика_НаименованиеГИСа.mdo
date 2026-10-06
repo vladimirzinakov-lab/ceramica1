@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="79aa8e98-0056-4266-af20-eb3a818eb0f6">
+  <producedTypes>
+    <refType typeId="f1043593-25ce-498e-a40c-50afdc3c48b5" valueTypeId="11e81c09-65bd-4d7e-beba-19b59207b3bb"/>
+    <listType typeId="72452193-2263-43a1-a202-5d1f6ae59152" valueTypeId="390fe913-6bff-4fc5-a64d-0a55e7808c24"/>
+    <managerType typeId="87818c12-c98f-479a-9e70-eee0f1dae399" valueTypeId="91af38ff-2802-4ef0-aa27-7d23ba38124f"/>
+  </producedTypes>
+  <name>КонтурЛогистика_НаименованиеГИСа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наименование ГИСа</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fc089444-7d96-4373-a5ef-a2f0fdc312ab">
+    <name>ЕГАИС</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЕГАИС 01</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1789d9a-26c2-4237-a862-2543296b9dd2">
+    <name>ГИС_МТ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ГИС МТ 02</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dbe7a32c-f7a2-405f-ac26-1ce3083d1d74">
+    <name>ФГИС_Меркурий</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФГИС ВетИС 03</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eee7052c-1759-49f4-8da1-5ded454faa09">
+    <name>ФГИС_ЛК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФГИС ЛК 04</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63af341e-8c74-4fc4-a586-eb0b58d860eb">
+    <name>ФГИС_Зерно</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФГИС зерно 05</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b197e73b-00a6-4432-85e1-254c55ec8c40">
+    <name>ФГИС_СеверныйЗавоз</name>
+    <synonym>
+      <key>ru</key>
+      <value>ФГИС северный завоз 06</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0589919d-ba9a-4427-aa92-f70882eaa4a3">
+    <name>Иное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иное 99</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

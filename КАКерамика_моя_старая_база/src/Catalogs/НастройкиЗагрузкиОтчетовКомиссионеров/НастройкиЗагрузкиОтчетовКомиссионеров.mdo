@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9853f482-1e59-4d32-b1be-90d4a635ebaa">
+  <producedTypes>
+    <objectType typeId="b89edfd4-9dac-4ec1-b6c7-e20bc16946ff" valueTypeId="9afb9bdd-a08e-407e-b197-419d2c7335dd"/>
+    <refType typeId="50f7fe60-e601-4134-89cf-9a534c3b57b2" valueTypeId="e1804c37-8be7-44b5-b69f-5187d5390386"/>
+    <selectionType typeId="69292411-1fc3-4586-9cde-26990264859a" valueTypeId="4448cbab-020c-4dac-858e-18c90bc2b482"/>
+    <listType typeId="b0127f06-13eb-4c14-9448-ae25031a12b8" valueTypeId="2c5d8dae-d7f1-4d08-a410-7abc555ef223"/>
+    <managerType typeId="06bdae8e-e625-48fa-a83a-9aed683c10dc" valueTypeId="f9b4bf55-981d-4400-a364-0cff5f23c7a7"/>
+  </producedTypes>
+  <name>НастройкиЗагрузкиОтчетовКомиссионеров</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки загрузки отчетов комиссионеров</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НастройкиЗагрузкиОтчетовКомиссионеров.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

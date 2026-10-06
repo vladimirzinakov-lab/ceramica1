@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="142d1132-cca3-4551-beca-07dd19406d8e">
+  <producedTypes>
+    <objectType typeId="3067a638-f952-4bc3-8ce7-23351c690d41" valueTypeId="df144810-6548-4c50-88dc-dd4e6540f7e2"/>
+    <managerType typeId="b4823ec7-f984-4dff-958e-2366e46e6793" valueTypeId="ba6029f1-37dd-4d5d-bb98-ffd969c0e9ca"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ПроверкаПодключенияКонтрагентовКЭПД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проверка подключения контрагентов к ЭПД (Контур.Логистика)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.КонтурЛогистика_ПроверкаПодключенияКонтрагентовКЭПД.Form.Форма</defaultForm>
+  <tabularSections uuid="57cbef2e-ad41-408e-8149-18ebcd72f426">
+    <producedTypes>
+      <objectType typeId="264581de-de82-4cd6-9f46-0d479b73672c" valueTypeId="91c8ace0-5214-474a-a72f-6e6e4fa5056a"/>
+      <rowType typeId="9c08af8a-3f6b-4e7c-8370-b2e34e972eac" valueTypeId="a620d6e8-c4b9-4ee8-8855-7b4063e07b1f"/>
+    </producedTypes>
+    <name>СписокКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список контрагентов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="52b80924-8e4b-4b9c-8c4d-4ed9d311fca1">
+      <name>Контрагент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Контрагент</value>
+      </synonym>
+      <type>
+        <types>DefinedType.КонтурЛогистика_ОрганизацияКонтрагент</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2ecba9ad-c22c-4029-a58a-5f69cb71b648">
+      <name>ИНН</name>
+      <synonym>
+        <key>ru</key>
+        <value>ИНН</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>12</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="2d95212c-f871-42fb-a8eb-f586e29b8861">
+      <name>КПП</name>
+      <synonym>
+        <key>ru</key>
+        <value>КПП</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>9</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="558f1eb2-2061-489f-8e63-9f0008d5541a">
+      <name>ОрганизацияДиадок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Организация Диадок</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КонтурЛогистика_ОрганизацииДиадок</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8e1d0e35-5e0f-456e-ba2a-962e2cfbabff">
+      <name>Роль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Роль</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="1d4eca20-58c1-41fd-a39f-e62a7b8afe0d">
+      <name>Провайдер</name>
+      <synonym>
+        <key>ru</key>
+        <value>Провайдер</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="4494d64e-b915-4083-90bb-fbd802aa8591">
+      <name>СтатусГотовностиКЭПД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус готовности к ЭПД</value>
+      </synonym>
+      <type>
+        <types>EnumRef.КонтурЛогистика_СтатусыГотовностиКЭПД</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9a6ca6d7-6d06-4d86-a73c-81bc910871c3">
+      <name>ТекстПровайдера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст провайдера</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+    <attributes uuid="a9a6ceff-a765-4942-99fe-90654cbf662f">
+      <name>ТекстСтатуса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Текст статуса</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="26ebb42a-ca5d-4680-94e6-335a11ca1bf4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7e5480ff-8372-40e7-9b39-89b16114fc4c">
+    <name>ФормаПодбораКонтрагентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор контрагентов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

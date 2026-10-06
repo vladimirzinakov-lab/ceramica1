@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d664f2c8-a248-45d2-8b9a-7536e04af500" extendedConfigurationObject="af7ff815-261e-45f9-bf19-ce1a489ea2a0">
+  <producedTypes>
+    <objectType typeId="9053dddf-ba05-44b9-84ff-a1b1d07b97d6" valueTypeId="ad3ddabf-528e-4ce8-ab12-1e631d552fb5"/>
+    <refType typeId="f25930d5-1329-439d-9813-a3b2390671b4" valueTypeId="6c7d01a1-3db6-4586-9171-9a6c24bc2169"/>
+    <selectionType typeId="17ac133a-c3cb-457a-90ef-9c85335e6c20" valueTypeId="a3dfecb3-4374-4fb7-ad54-ffc02823d81c"/>
+    <listType typeId="b214d37a-6dd0-46b1-b207-8a14b837f72e" valueTypeId="5cdc5ba7-f9c4-4124-8a0d-5fec13da7526"/>
+    <managerType typeId="1ed2ce38-f413-46ad-9444-9e61c807105a" valueTypeId="b69ed98a-fb88-41b5-ac82-1dcdc209ecb7"/>
+  </producedTypes>
+  <name>КаналыСбыта</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

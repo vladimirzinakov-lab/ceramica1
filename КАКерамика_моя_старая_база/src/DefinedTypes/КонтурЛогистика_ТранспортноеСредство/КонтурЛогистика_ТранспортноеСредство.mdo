@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da3086df-7b2b-43ce-a1a0-32afc9a60589">
+  <producedTypes>
+    <containerType typeId="4ca4c72b-821e-4146-80ca-f0b15f6f451e" valueTypeId="2da3294b-20ef-4bbd-a489-0ee57be8c39e"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ТранспортноеСредство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Транспортное средство</value>
+  </synonym>
+  <comment>Указывается справочник автомобилей (и прицепов, если он в отдельном спр.) Если а/м указываются строками - выберите строку.</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

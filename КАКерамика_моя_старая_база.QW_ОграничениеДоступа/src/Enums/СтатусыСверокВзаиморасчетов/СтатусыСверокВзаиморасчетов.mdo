@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="02481c5c-667d-45cc-a083-9b20adada540" extendedConfigurationObject="86c20b22-798e-4f74-8803-5f2c25adeaab">
+  <producedTypes>
+    <refType typeId="b6ade133-92d6-4ea9-a34f-7a34b3efa3c9" valueTypeId="76c69d62-f928-4c8d-b5b0-28ba2c5bff12"/>
+    <listType typeId="f0ed1b5a-504a-4ccc-872a-ee00bf8d8bb2" valueTypeId="e8be6ba8-f0ad-41b2-a4a7-8b31bc45ddc1"/>
+    <managerType typeId="0be7f305-25b4-416d-b5a3-af821d7c0c41" valueTypeId="ceeaa3d4-7415-48be-852a-ea7ba5ce18ce"/>
+  </producedTypes>
+  <name>СтатусыСверокВзаиморасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="f75cb37e-72d6-4163-8dd2-96e9fe5af249" extendedConfigurationObject="18ae8f18-a35e-43e7-af54-546ed6b42814">
+    <name>НаСверке</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="ef934b3b-e7d7-44eb-9abe-7b1f1ccaf3f4" extendedConfigurationObject="d01b690a-9889-4f3b-bd59-254a1d915aa0">
+    <name>Создана</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="2e271018-574b-464a-b9bc-970f6ea69ee2" extendedConfigurationObject="c2865165-7ffb-47ee-8435-fe2e9538e51c">
+    <name>Сверена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

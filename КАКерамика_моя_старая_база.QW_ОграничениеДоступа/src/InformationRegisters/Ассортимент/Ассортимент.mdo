@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7899e662-f7cd-4822-a670-b687e48a762b" extendedConfigurationObject="0a31d50e-b19b-40a9-8ffd-9699c8120070">
+  <producedTypes>
+    <selectionType typeId="713c6297-6b38-47bf-a768-0802448d71b2" valueTypeId="995d045e-6f8d-48e8-98c7-cd4dbc80d81b"/>
+    <listType typeId="a141f436-9a3b-47ee-b793-0ad72a9bfbff" valueTypeId="5d46f81d-e915-4c3f-858f-0998253701e5"/>
+    <managerType typeId="924b00b0-ce2f-4ee8-b6d8-6fd10a1edc06" valueTypeId="a926eebb-dbff-45c4-a82e-840689e5946a"/>
+    <recordSetType typeId="6b643c42-a156-4fa2-891b-893619204a28" valueTypeId="a537f62e-c66a-420f-af7e-c11ae90c9cf4"/>
+    <recordKeyType typeId="b3ea8078-c242-4944-a306-4a8365bd933b" valueTypeId="933a69fa-afb3-4523-8a89-63cd1b612845"/>
+    <recordType typeId="59e83163-c471-4744-b3d5-9251336f5806" valueTypeId="afd6da45-ec00-47eb-b621-374c652e0e48"/>
+    <recordManagerType typeId="6f5ada46-02e4-4600-8a00-e34435dcf05f" valueTypeId="5a948179-7f4a-4ebd-97e0-e91ce95abcf1"/>
+  </producedTypes>
+  <name>Ассортимент</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <resources uuid="793d14d2-d8e4-436e-8023-7893311db960" extendedConfigurationObject="97f5df5b-1411-4bf9-a504-ce020e1e532a">
+    <name>РазрешеныПродажи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <resources uuid="6e3dad74-9821-48ad-945d-2af5fad2efff" extendedConfigurationObject="0d8e8fa9-4001-46aa-940d-14d1d2320de8">
+    <name>РольАссортимента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.РолиАссортимента</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </resources>
+  <dimensions uuid="f12a99fd-e5b4-4ee1-8cfe-cbfd5ecc04dd" extendedConfigurationObject="b87d309e-0f04-4549-ba1f-582854ffc4e0">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </dimensions>
+</mdclass:InformationRegister>

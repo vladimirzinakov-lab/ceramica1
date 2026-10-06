@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="01ca203f-f9d3-485d-8f88-68f492af998c">
+  <producedTypes>
+    <objectType typeId="7f0ba4cc-ea63-46f0-b863-b2e3551cdc0b" valueTypeId="3baaa555-0cc7-4c32-b1fa-a00ab2e4c7ce"/>
+    <managerType typeId="2e5a2bc7-b3bc-43f4-b657-5d951755c96c" valueTypeId="e087362c-5db2-4d8b-ac8e-f596a2c2f0bf"/>
+  </producedTypes>
+  <name>РегламентированныйОтчетРеестрАкцизыВычетыВиноград</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр для налоговых вычетов по акцизам на виноград</value>
+  </synonym>
+  <defaultForm>Report.РегламентированныйОтчетРеестрАкцизыВычетыВиноград.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="12aa37f1-2d22-44c7-aecb-8fcba5e713bf">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр для налоговых вычетов по акцизам на виноград</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a5bd5557-c81f-424b-825c-1b88e4be98c0">
+    <name>ФормаОтчета2021Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр для налоговых вычетов по акцизам на виноград</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="43b16dd2-4a4a-4183-9b58-69fc558ef4f5">
+    <name>НастройкиЗагрузкиXML2021Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2021 (кв.4)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="8196fa8a-068c-4d65-b0f1-5cee67641917">
+    <name>НастройкиСравнения2021Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2021 (кв.4)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="7df7e70c-3c17-496d-90a5-a30aefea0895">
+    <name>ПечатныйБланк2021Кв4_Таблица1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестры</value>
+    </synonym>
+  </templates>
+  <templates uuid="9f635ff5-8ce8-426a-b1cd-b46eca16eb1e">
+    <name>ПечатныйБланк2021Кв4_Таблица2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестры</value>
+    </synonym>
+  </templates>
+  <templates uuid="562070ad-26c5-4598-ac1c-e308ec33d61a">
+    <name>ПечатныйБланк2021Кв4_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный лист</value>
+    </synonym>
+  </templates>
+  <templates uuid="ddb3cdc8-4f93-4d9f-ad34-57cd633c08a8">
+    <name>СпискиВыбора2021Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора значений</value>
+    </synonym>
+  </templates>
+  <templates uuid="ec77424b-5309-4b0e-b62f-0396cb211f20">
+    <name>СхемаВыгрузки501_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки первого файла, версия 5.01</value>
+    </synonym>
+  </templates>
+  <templates uuid="eb37e1af-80e2-4f3e-ab23-8dd82372f7a7">
+    <name>СхемаВыгрузки501_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки второго файла, версия 5.01</value>
+    </synonym>
+  </templates>
+  <templates uuid="66bd0ec8-784d-46cd-b989-56f7af9c83df">
+    <name>ФормаОтчета2021Кв4_Таблица1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="303ea17f-0758-4843-aa2c-c11eae7e0c0b">
+    <name>ФормаОтчета2021Кв4_Таблица2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="042c836e-462e-44fc-a8c0-e69dcefcec76">
+    <name>ФормаОтчета2021Кв4_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный лист</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

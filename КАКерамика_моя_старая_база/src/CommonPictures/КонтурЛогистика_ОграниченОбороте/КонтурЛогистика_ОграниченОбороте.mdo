@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86b71788-8b0e-4181-aa14-927ff4839f69">
+  <name>КонтурЛогистика_ОграниченОбороте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничен обороте</value>
+  </synonym>
+</mdclass:CommonPicture>

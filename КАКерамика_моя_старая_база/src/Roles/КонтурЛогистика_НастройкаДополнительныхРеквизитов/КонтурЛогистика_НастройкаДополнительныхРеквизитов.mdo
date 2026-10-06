@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c0cc600a-634b-4c01-bfa5-5ab2a0bbbd80">
+  <name>КонтурЛогистика_НастройкаДополнительныхРеквизитов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка дополнительных реквизитов</value>
+  </synonym>
+  <comment>Дает пользователю права добавлять и редактировать настройки дополнительных реквизитов</comment>
+</mdclass:Role>

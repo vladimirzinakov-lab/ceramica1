@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="03b973e9-beb0-48ad-b6d3-e11c1dd5fba0" extendedConfigurationObject="8d080f3c-06ed-48bf-9709-eea73d676741">
+  <producedTypes>
+    <refType typeId="34f1dcba-a61b-41c9-8eec-741dcf6299d7" valueTypeId="4459b235-22fd-4538-a9f1-22a908f8053b"/>
+    <listType typeId="b19c4a09-adaf-4270-af79-3dea89d94115" valueTypeId="713b8bd8-56d6-4652-96b8-57b72f26357c"/>
+    <managerType typeId="890bee57-49c1-4505-b034-0dec66d0e4c9" valueTypeId="2e048b86-667d-48ef-a12e-a2d99f4b5d1e"/>
+  </producedTypes>
+  <name>ТипыКонтактнойИнформации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="dbfcfb30-7a17-45c0-878d-39802bd755c2" extendedConfigurationObject="a84a91d2-d326-4bf4-82e6-d573ee35d090">
+    <name>АдресЭлектроннойПочты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="1ea73804-c4af-464b-a92a-6683712ada15" extendedConfigurationObject="57b31a5d-9fdc-43d2-ae81-67157822c4b6">
+    <name>Адрес</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

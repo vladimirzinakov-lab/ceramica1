@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="70c079e8-b513-4cbd-b821-1d0d71b4694b" extendedConfigurationObject="cffbf533-11c6-4206-9b8b-f7355cb63fd8">
+  <producedTypes>
+    <objectType typeId="0705a0ea-47f9-4f2f-9c7a-3db40a38a0d0" valueTypeId="e07cbcc3-3247-437f-97dc-79b0b0842d5e"/>
+    <refType typeId="1b7eb9c9-b52f-4dba-8099-6c1be6c0cd73" valueTypeId="91abe739-339c-4dd7-9c1a-2c74e0dd2e26"/>
+    <selectionType typeId="0c43a2fe-1bb2-48b7-b40a-59fad003e983" valueTypeId="0a070ffe-afbf-47b4-a13c-8dbdcb65b129"/>
+    <listType typeId="dcdb2b78-87aa-442a-a0b3-43132baf30d8" valueTypeId="590b0eaf-00d8-436f-bfe8-6e2248c3f831"/>
+    <managerType typeId="638e8767-20f0-4676-9864-4d593fad4c6a" valueTypeId="de0da225-211e-4ed0-adbe-72d23c44547b"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <attributes uuid="3db5057b-c6b5-4f7f-869f-119d0e7951c1" extendedConfigurationObject="d7cfc87f-ac09-44aa-91d9-6511c408c5cb">
+    <name>ФизическоеЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ФизическоеЛицо</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Catalog>

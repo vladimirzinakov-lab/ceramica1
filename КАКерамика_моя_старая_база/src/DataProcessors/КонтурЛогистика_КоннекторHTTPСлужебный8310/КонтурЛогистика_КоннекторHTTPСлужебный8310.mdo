@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4052e04d-052d-45be-bff6-7118193c0d79">
+  <producedTypes>
+    <objectType typeId="e3d44784-a34d-4bc8-85b8-29688110b62a" valueTypeId="835646d1-e375-4e37-b92d-2e0e5fdeeba8"/>
+    <managerType typeId="e8dd7253-8038-4972-9edd-4d62c084c54a" valueTypeId="5d353cff-9bd2-4edf-9d07-4b4477003c26"/>
+  </producedTypes>
+  <name>КонтурЛогистика_КоннекторHTTPСлужебный8310</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коннектор HTTP. Служебный 8.3.10 (Контур)</value>
+  </synonym>
+</mdclass:DataProcessor>

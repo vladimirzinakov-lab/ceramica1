@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="598ad0ba-4a20-4692-9984-99499fb160d9">
+  <producedTypes>
+    <containerType typeId="386a742e-b859-4d02-b1a6-8c07197da8cd" valueTypeId="44f24ae8-4599-489c-b441-d34976395d4f"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ОрганизацияКонтрагентПартнер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организация или Контрагент</value>
+  </synonym>
+  <comment>Соответствует справочникам Организации, Партнеры и Контрагенты одновременно  в учетной системе (основной конфигурации)</comment>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>255</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

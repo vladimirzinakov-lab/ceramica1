@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8377e1fb-7a86-4784-b8dd-3d3370962011">
+  <name>ОстаткиИДоступностьТоваровМенеджеры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет Остатки и доступность товаров, менеджеры</value>
+  </synonym>
+  <group>ActionsPanelReports</group>
+  <representation>Auto</representation>
+</mdclass:CommonCommand>

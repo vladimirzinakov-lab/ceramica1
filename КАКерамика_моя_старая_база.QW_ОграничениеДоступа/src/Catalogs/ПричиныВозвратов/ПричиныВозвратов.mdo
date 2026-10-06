@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="40bbc09d-01c1-43ed-96b6-b08b140e2ef2" extendedConfigurationObject="a9eafe2b-6ed9-4222-bba4-f3022122a0e7">
+  <producedTypes>
+    <objectType typeId="60caa61d-c367-4247-b7d5-308514d40097" valueTypeId="8c1cf78a-5680-40ab-b834-9e5ba5a2d5fc"/>
+    <refType typeId="1fa197f8-8e4c-4b2a-b88b-b63085f3025f" valueTypeId="9795724a-baeb-4e70-b1a4-73967cacea4f"/>
+    <selectionType typeId="41f40203-7ea0-4723-9591-14697e612659" valueTypeId="b6ed7594-d0b5-4dce-904b-b76b89c15133"/>
+    <listType typeId="13a14ba9-7424-4613-b610-a0e94b7ede18" valueTypeId="9a096e05-1f1a-4d18-b5fc-dcbb2a0c3b11"/>
+    <managerType typeId="737c3700-6657-4a31-a87a-4ba7d1dcae6f" valueTypeId="12ccfa5c-c76e-4639-b151-b1d858bf4186"/>
+  </producedTypes>
+  <name>ПричиныВозвратов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+</mdclass:Catalog>

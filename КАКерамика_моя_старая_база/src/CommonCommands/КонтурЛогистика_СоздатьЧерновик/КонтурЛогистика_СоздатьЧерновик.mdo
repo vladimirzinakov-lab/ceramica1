@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8a9e980-1543-4a38-a62d-fbdde82699a0">
+  <name>КонтурЛогистика_СоздатьЧерновик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать черновик (Логистика)</value>
+  </synonym>
+  <group>CommandGroup.КонтурЛогистика_КомандыВводаДокументов</group>
+  <commandParameterType>
+    <types>DefinedType.КонтурЛогистика_ОбщаяКомандаДокументыУчетнойСистемы</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>PictureAndText</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Формирует черновик титула  по документам (по 1 документу - открывает карточку ввода нового)</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КонтурЛогистика_ЛогоСКарандашом</picture>
+  </picture>
+  <shortcut>Ctrl+Shift+Space</shortcut>
+</mdclass:CommonCommand>

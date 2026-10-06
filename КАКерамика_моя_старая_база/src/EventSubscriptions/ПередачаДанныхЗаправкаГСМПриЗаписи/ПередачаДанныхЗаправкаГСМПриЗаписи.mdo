@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:EventSubscription xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a85c2016-2ae7-411a-9bba-413fc3cdf417">
+  <name>ПередачаДанныхЗаправкаГСМПриЗаписи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Передача данных заправкт в сервис Логистики</value>
+  </synonym>
+  <source>
+    <types>DocumentObject.КонтурЛогистика_Вспомогательный</types>
+  </source>
+  <event>OnWrite</event>
+  <handler>CommonModule.КонтурЛогистика_КонвертацияСервер.ПередачаДанныхЗаправкаГСМПриЗаписиПриЗаписи</handler>
+</mdclass:EventSubscription>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1c4aa83a-617a-4e05-ae75-988d36cd1722">
+  <name>КонтурЛогистика_Создать1ЗзПоВыделенным</name>
+  <synonym>
+    <key>ru</key>
+    <value>Создать 1 заказ-заявку по выделенным</value>
+  </synonym>
+  <group>CommandGroup.КонтурЛогистика_КомандыВводаДокументов</group>
+  <commandParameterType>
+    <types>DefinedType.КонтурЛогистика_ОбщаяКомандаДокументыУчетнойСистемы</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>PictureAndText</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Формирует черновик титула по выделенным документам (по выделенным документам - открывает 1 карточку ввода ЗЗ)</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КонтурЛогистика_Молния</picture>
+  </picture>
+</mdclass:CommonCommand>

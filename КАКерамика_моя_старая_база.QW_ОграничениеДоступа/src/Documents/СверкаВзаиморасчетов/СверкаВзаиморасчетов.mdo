@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e61acb99-24ce-42c1-8c4f-5b1b5c7872ab" extendedConfigurationObject="4d4f485d-952a-4cb3-a5a4-ebcb15b9dff3">
+  <producedTypes>
+    <objectType typeId="5570e112-e22e-4312-b3c9-8915df7b6d70" valueTypeId="178125c7-a29c-4edf-a915-7eaf04c82051"/>
+    <refType typeId="4cafdabf-0c9b-4786-8040-5845e1126147" valueTypeId="e3eb75f8-cecf-49a5-af2a-4ee9140acb44"/>
+    <selectionType typeId="ffe93320-a6e5-465e-a7e7-f30e6917bc99" valueTypeId="31a50291-f304-4092-bc9b-6efe94beeaae"/>
+    <listType typeId="ddd095a0-e16c-4123-9142-bc2c3afc6bdf" valueTypeId="86c89cf6-2476-4b6a-8b46-706331e0d891"/>
+    <managerType typeId="97824c49-bb43-4a80-86c5-278cfe80ae37" valueTypeId="57d6cb23-c853-485f-9ec0-c5f08240ca82"/>
+  </producedTypes>
+  <name>СверкаВзаиморасчетов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="4b14cfa6-9141-421e-9b86-09dfec346c48" extendedConfigurationObject="f05cec4f-c218-43cc-a479-8aaf979cc4c7">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

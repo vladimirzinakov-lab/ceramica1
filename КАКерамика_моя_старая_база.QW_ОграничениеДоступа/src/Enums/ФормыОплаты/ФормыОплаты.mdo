@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="093bc0a0-e3ae-4ac5-a03a-ed137a564a80" extendedConfigurationObject="8cd09e10-4636-4941-882a-e1d11a583f37">
+  <producedTypes>
+    <refType typeId="526e5d1d-67ea-4923-a022-565e202b4e0e" valueTypeId="33c659e1-b001-4c6b-9a51-e87b78f18288"/>
+    <listType typeId="30200631-5139-4d68-9e25-21a8e491601d" valueTypeId="4ed9f1f2-63fa-4fb9-9409-db5f8a45dd79"/>
+    <managerType typeId="dd98ebb8-719b-47f4-86df-7a4d4bd7ae4e" valueTypeId="93fbfba6-c3d3-4a35-8d3f-0e2452895018"/>
+  </producedTypes>
+  <name>ФормыОплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <enumValues uuid="cf841dd3-ab51-4c66-9309-40e75c76eb44" extendedConfigurationObject="d450cea1-6bc0-427b-b3f6-68344c8dba57">
+    <name>Наличная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+  <enumValues uuid="2ba84c16-9ad5-4af3-ace2-8351f03cfef7" extendedConfigurationObject="d1e84b1a-e266-4a41-b553-0d030e40bc26">
+    <name>Безналичная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+  </enumValues>
+</mdclass:Enum>

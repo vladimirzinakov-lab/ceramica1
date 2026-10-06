@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="58ad0c66-b876-4902-ad02-93f986baace7">
+  <name>ОД_ОграничениеДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ограничение доступа</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ДополнительнаяИнформацияПоДоставке</content>
+  <content>InformationRegister.ОД_РассылкаПисемДатаДоставки</content>
+  <content>ScheduledJob.ОД_РассылкаПисемДатаДоставки</content>
+  <content>InformationRegister.ОД_СостоянияПечатиДокументов</content>
+  <content>InformationRegister.ОД_СостоянияРассылкиАктовСверки</content>
+</mdclass:Subsystem>

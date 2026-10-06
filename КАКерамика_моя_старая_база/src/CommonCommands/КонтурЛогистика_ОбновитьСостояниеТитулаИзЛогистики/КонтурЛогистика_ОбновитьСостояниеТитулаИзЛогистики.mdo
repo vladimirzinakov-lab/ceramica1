@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7728d6d4-61e2-4c9f-83e2-337d67ecaea2">
+  <name>КонтурЛогистика_ОбновитьСостояниеТитулаИзЛогистики</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить состояние (из Логистики)</value>
+  </synonym>
+  <group>FormCommandBarImportant</group>
+  <commandParameterType>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул1</types>
+    <types>DocumentRef.КонтурЛогистика_ЭлектроннаяТранспортнаяНакладная</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул4</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул5</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул7</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул6</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул8</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул3</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул2</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>PictureAndText</representation>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КонтурЛогистика_Загрузить</picture>
+  </picture>
+</mdclass:CommonCommand>

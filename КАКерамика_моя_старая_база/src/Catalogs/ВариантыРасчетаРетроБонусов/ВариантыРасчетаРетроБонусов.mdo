@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6373dd1c-7758-49c5-94fd-485e31189bfe">
+  <producedTypes>
+    <objectType typeId="a6990c3b-d84c-4122-91d0-f44732fd50fb" valueTypeId="0f9da1f3-1ce6-4a5f-ac36-98aa75fca124"/>
+    <refType typeId="3ac08ec3-1a18-43fb-a4b2-3d8daad634b8" valueTypeId="ecc31f3b-4db7-4307-b55a-2c4f82cbc5fd"/>
+    <selectionType typeId="8694bcab-e892-4b25-8379-07d247ea5539" valueTypeId="76b4dd67-ba60-436c-8f20-1a90f78c3873"/>
+    <listType typeId="7d028f81-b875-46a2-8add-db40e4691e50" valueTypeId="42cddff8-21f4-4b89-bec9-ea3fc5e036f7"/>
+    <managerType typeId="1b365c6d-b7aa-4e93-ae7b-1f0607042556" valueTypeId="4635dfa6-1ccc-40ac-986a-774dd9ec6e01"/>
+  </producedTypes>
+  <name>ВариантыРасчетаРетроБонусов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты расчета Ретро-бонусов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВариантыРасчетаРетроБонусов.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ВариантыРасчетаРетроБонусов.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

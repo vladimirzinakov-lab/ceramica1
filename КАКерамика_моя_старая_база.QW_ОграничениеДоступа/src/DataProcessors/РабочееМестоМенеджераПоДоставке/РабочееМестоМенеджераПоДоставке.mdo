@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="6074e511-ddd0-4b98-ab40-82a2edef30a0" extendedConfigurationObject="b83a87b5-25b9-4a22-9a0f-5ddd24e8eeb1">
+  <producedTypes>
+    <objectType typeId="1ac9edb3-db0b-4279-a7e3-b71c51284f45" valueTypeId="a40f1e91-72ec-4cd3-9c7f-5361826aa718"/>
+    <managerType typeId="fb7caaec-1527-4afd-ad6b-f75646d30145" valueTypeId="3c6d1599-f9fc-4b95-9e2c-493451d90b25"/>
+  </producedTypes>
+  <name>РабочееМестоМенеджераПоДоставке</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DataProcessorExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+  </extension>
+  <forms uuid="d3b62b5b-1ea9-4b1c-a287-9e4d04d4532d" extendedConfigurationObject="49e5ab1b-3a90-4fda-96b1-d6d691150f9a">
+    <name>Форма</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <forms uuid="76236060-bed8-400c-b9da-f35124bb028a" extendedConfigurationObject="04d5def8-19fa-4c69-b808-2f2c8411a6d7">
+    <name>ФормаРаспоряженияПоПункту</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:DataProcessor>

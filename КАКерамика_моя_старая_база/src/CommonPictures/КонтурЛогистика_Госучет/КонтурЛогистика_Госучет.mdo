@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="35db277d-efd9-43d0-b3c3-7926e0a24fa1">
+  <name>КонтурЛогистика_Госучет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Госучет</value>
+  </synonym>
+</mdclass:CommonPicture>

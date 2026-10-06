@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="44104396-0d77-48e9-820d-76e548aada1d" extendedConfigurationObject="ac063c75-89dc-4887-b5a8-d36c32573ef7">
+  <producedTypes>
+    <objectType typeId="ecc788d5-09b5-4fd4-b2aa-4839ba8bab4b" valueTypeId="3d00c67c-3325-43d8-aae8-ddcfb3764712"/>
+    <refType typeId="3be0f35c-75d0-4ac6-b214-8677bd3ba510" valueTypeId="ddab63d5-78e3-431d-9928-d786aca99a49"/>
+    <selectionType typeId="0708b37a-f5f5-416d-ae19-810098617abc" valueTypeId="a31399d2-3a0c-4347-9b65-6ea0cb8c5415"/>
+    <listType typeId="c12e086c-c40e-422b-a6f0-94146e38b676" valueTypeId="f7863df3-ae20-4da1-970d-6356f5af4ebe"/>
+    <managerType typeId="19a40e66-c84c-4077-bcde-ce03617260a9" valueTypeId="bf42f641-aa3e-46f2-9065-4030132d8d84"/>
+  </producedTypes>
+  <name>ДоверенностьВыданная</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="e0ba0122-9eaf-4d6f-b521-942720494b65" extendedConfigurationObject="152e8561-1f33-4498-8b31-1dd4e4581f0b">
+    <name>Организация</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Организации</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="397d3767-bba5-458f-874d-e5c52c3c2157" extendedConfigurationObject="46c57b3d-d47b-455e-bb86-58549c682397">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="de51e70c-4592-4072-8431-6de823a5f411" extendedConfigurationObject="6a35bbdb-641b-433c-ab3e-97ff59de61c2">
+    <name>ФизЛицо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ФизическиеЛица</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="6a7faff2-0075-4f76-8ba1-23588569bec5" extendedConfigurationObject="08f4fd6e-435a-43d3-b09b-a32ccb426187">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="afb14eac-9228-4797-9c05-1aaa9501dd16" extendedConfigurationObject="728a08f9-43ad-4692-99e9-c1fc623a0e57">
+    <name>Партнер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Партнеры</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="c812a42c-8bcb-40be-9e54-54a7d93ccdc1" extendedConfigurationObject="43be4239-f48b-475a-9377-28156296412d">
+    <name>ПредставлениеДокументаФизЛица</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="bcd9d5bb-dd3a-42e1-94f2-e51649f2ba66" extendedConfigurationObject="e6846122-36eb-4c70-9672-4a6bac40c4d4">
+    <name>СуммаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="a6e5d1a0-8f00-4150-a598-03a0b08e2ba2" extendedConfigurationObject="c921c4a7-986b-4e25-b8f1-27889704ebb9">
+    <name>ТипДоверенности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыВыданныхДоверенностей</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="9211f84b-ec34-4294-92cd-55d16617510b" extendedConfigurationObject="a2bfe324-c180-445b-bf9d-4ca59808c919">
+    <name>Валюта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Валюты</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+</mdclass:Document>

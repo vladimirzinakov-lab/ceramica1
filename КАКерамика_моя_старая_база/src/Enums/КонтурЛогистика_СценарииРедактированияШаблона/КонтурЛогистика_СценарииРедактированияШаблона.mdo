@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87944426-d2eb-4006-9775-06a188f4f416">
+  <producedTypes>
+    <refType typeId="f4930bfd-74ca-4bf6-a37f-5c3d7144d7e7" valueTypeId="27ac0852-3ff1-4425-80b3-6b982ee0c0ad"/>
+    <listType typeId="9b37aea3-1732-4a85-a016-58fabb9d42c5" valueTypeId="83c673ec-cf17-4429-ac07-b3d8a32d95a2"/>
+    <managerType typeId="2fb2b2cd-6eec-4d0b-b907-f73b144530d8" valueTypeId="83942e8a-3c71-4a72-b9c9-86832aad7b3b"/>
+  </producedTypes>
+  <name>КонтурЛогистика_СценарииРедактированияШаблона</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии редактирования шаблона</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4a3cd925-d290-4b7a-8729-154ef58c4c41">
+    <name>НеРедактируется</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон для подписания (не редактируется)</value>
+    </synonym>
+    <comment>Шаблон для подписания</comment>
+  </enumValues>
+  <enumValues uuid="27a34c61-ff55-4dc1-ac7e-0182d32b7d46">
+    <name>ДоступныВсеПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон с настройкой редактирования</value>
+    </synonym>
+    <comment>Документ, созданный из данного шаблона, контрагент сможет  отредактировать - внести дополнения по грузу, адресам или иным данным.</comment>
+  </enumValues>
+</mdclass:Enum>

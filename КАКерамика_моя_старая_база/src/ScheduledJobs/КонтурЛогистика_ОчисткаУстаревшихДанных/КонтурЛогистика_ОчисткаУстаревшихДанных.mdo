@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="10f5f52f-bb1a-4920-ba00-4b5f11503abd">
+  <name>КонтурЛогистика_ОчисткаУстаревшихДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очистка устаревших данных (Контур.Логистика)</value>
+  </synonym>
+  <comment>Запускает удаление старых файлов и документов</comment>
+  <methodName>CommonModule.КонтурЛогистика_РегламентныеЗадания.КонтурЛогистика_ОчиститьУстаревшиеДанные</methodName>
+  <description>Очистка устаревших данных (Контур.Логистика)</description>
+  <key>КонтурЛогистика_РегламентныеЗадания.КонтурЛогистика_ОчиститьУстаревшиеДанные</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>1</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

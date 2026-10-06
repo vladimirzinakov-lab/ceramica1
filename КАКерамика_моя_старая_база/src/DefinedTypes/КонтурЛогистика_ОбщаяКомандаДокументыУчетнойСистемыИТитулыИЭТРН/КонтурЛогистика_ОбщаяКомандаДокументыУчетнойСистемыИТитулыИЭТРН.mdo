@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ed2c109-2cf8-4d70-b68a-d9913586f8c3">
+  <producedTypes>
+    <containerType typeId="506c3b30-5ddd-4674-b5db-e2792c6f1b27" valueTypeId="00e17806-ecc2-408a-ae71-3682bf328941"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ОбщаяКомандаДокументыУчетнойСистемыИТитулыИЭТРН</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур логистика общая команда документы учетной системы и титулы ИЭТРН</value>
+  </synonym>
+  <type>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул1</types>
+    <types>DocumentRef.КонтурЛогистика_СВ_ТитулГП</types>
+    <types>DocumentRef.КонтурЛогистика_ПЛ_Титул4</types>
+    <types>DocumentRef.КонтурЛогистика_ПЭ_ЗаявкаНаМаршрут</types>
+    <types>DocumentRef.КонтурЛогистика_ЗН_Титул1</types>
+    <types>DocumentRef.КонтурЛогистика_ПЛ_Титул2_5_02</types>
+    <types>DocumentRef.КонтурЛогистика_ЭлектроннаяТранспортнаяНакладная</types>
+    <types>DocumentRef.КонтурЛогистика_СВ_ТитулГО</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул4</types>
+    <types>DocumentRef.КонтурЛогистика_ПЭ_Титул2</types>
+    <types>DocumentRef.КонтурЛогистика_ПЛ_Титул3</types>
+    <types>DocumentRef.КонтурЛогистика_Вспомогательный</types>
+    <types>DocumentRef.КонтурЛогистика_ДФ_Титул1</types>
+    <types>DocumentRef.КонтурЛогистика_ЭкспедиторскаяРасписка</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул5</types>
+    <types>DocumentRef.КонтурЛогистика_ПЛ_Титул5_5_02</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул7</types>
+    <types>DocumentRef.КонтурЛогистика_ПЛ_Титул1_5_02</types>
+    <types>DocumentRef.КонтурЛогистика_ЗН_Титул3</types>
+    <types>DocumentRef.КонтурЛогистика_ПЛ_Титул4_5_02</types>
+    <types>DocumentRef.КонтурЛогистика_ДФ_Титул2</types>
+    <types>DocumentRef.КонтурЛогистика_ЗЗ_Титул2</types>
+    <types>DocumentRef.КонтурЛогистика_ПЭ_Титул1</types>
+    <types>DocumentRef.КонтурЛогистика_ЗН_Титул2</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул6</types>
+    <types>DocumentRef.КонтурЛогистика_ЭлектроннаяСопроводительнаяВедомость</types>
+    <types>DocumentRef.КонтурЛогистика_ПЛ_Титул5</types>
+    <types>DocumentRef.КонтурЛогистика_ЗЗ_Титул1</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул8</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул3</types>
+    <types>DocumentRef.КонтурЛогистика_ЗН_Титул4</types>
+    <types>DocumentRef.КонтурЛогистика_ЭлектронныйЗаказНаряд</types>
+    <types>DocumentRef.КонтурЛогистика_ПЛ_Титул3_5_02</types>
+    <types>DocumentRef.КонтурЛогистика_ПЛ_Титул1</types>
+    <types>DocumentRef.КонтурЛогистика_ТрН_Титул2</types>
+    <types>DocumentRef.КонтурЛогистика_СкладскаяРасписка</types>
+    <types>DocumentRef.КонтурЛогистика_ПЛ_Титул2</types>
+    <types>DocumentRef.КонтурЛогистика_СВ_ТитулПВ</types>
+    <types>DocumentRef.КонтурЛогистика_ПЛ_Титул6</types>
+  </type>
+</mdclass:DefinedType>

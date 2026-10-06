@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a418e48d-d8bb-4fcc-bfe0-fc224fd60c9a">
+  <name>Рекламации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рекламации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ПодменюСервис</picture>
+  </picture>
+  <content>Enum.Рекл_ВидыРемонта</content>
+  <content>Enum.Рекл_СостоянияРекламации</content>
+  <content>Document.Рекламация</content>
+  <content>InformationRegister.ПечатьАктРекламацииГарантОбязательстваНеДействуют</content>
+  <content>InformationRegister.ПечатьАктРекламацииУсловияРемонта</content>
+  <content>CommonCommand.ОтчетПоДокументамРекламация</content>
+  <content>Catalog.ОписанияДефектов</content>
+  <content>Document.Ремонт</content>
+  <content>Enum.СтатусыРемонт</content>
+  <content>Catalog.РемонтРаботы</content>
+</mdclass:Subsystem>

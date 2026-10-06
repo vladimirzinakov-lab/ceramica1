@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7a891315-601c-4d7c-bb08-1594cd7a1285" extendedConfigurationObject="088ef687-1ea4-4570-b52a-31cf8dad179d">
+  <producedTypes>
+    <objectType typeId="c8d94653-ec5c-4d15-9536-8c4299e97e97" valueTypeId="bad4884b-9d8a-4454-9c50-9574d0e51ba0"/>
+    <refType typeId="ec0d7796-fdd3-43c6-ab23-38f16c83a15c" valueTypeId="3f5ffc4a-5eaa-47fd-9e29-fbb96b92c12e"/>
+    <selectionType typeId="9cfde637-499e-4c58-9d6f-6c1f4d927add" valueTypeId="3d3abdb8-187c-49e3-8372-be9885a3419c"/>
+    <listType typeId="01980a6a-65f6-4280-9583-2e5b8253dacd" valueTypeId="bd1b8c1e-cb5a-42bb-8f81-deba6ba51269"/>
+    <managerType typeId="b82f7d50-c31d-40d4-b6cb-1943a927df39" valueTypeId="5f53f7cb-129e-4fc8-9a27-c4c09874636f"/>
+  </producedTypes>
+  <name>ИзменениеАссортимента</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    <managerModule>Extended</managerModule>
+  </extension>
+  <attributes uuid="5a8b165b-644d-4200-af61-5cc0e7084896" extendedConfigurationObject="7bb19dd0-56f9-4ba1-80a9-85fd57403a35">
+    <name>Стадия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СтадииАссортимента</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <attributes uuid="39c1301b-a2fd-42d3-ad92-4bf5b1175cca" extendedConfigurationObject="9363caca-cef9-4437-8432-4fa44ff10a88">
+    <name>Этап</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ЭтапыИзмененияАссортимента</type>
+        </types>
+      </typeExtension>
+    </extension>
+  </attributes>
+  <forms uuid="37c23a88-c650-436d-8ae3-219119755ecc" extendedConfigurationObject="e3b195df-e60d-4c1a-8875-74464830bdbc">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="6d064b99-00e7-43ad-acce-eedbf52441b3" extendedConfigurationObject="bad7dc37-a78f-4a01-a0c8-c7573c8f71d3">
+    <producedTypes>
+      <objectType typeId="fd6360cb-3619-41e3-82be-7e1f1e83706f" valueTypeId="b39106e7-c829-477b-823b-68292ccc1677"/>
+      <rowType typeId="de13b373-bc46-46e9-ab2e-6ab85556233a" valueTypeId="32f18e45-2250-48bd-90fa-398f82812310"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+    </extension>
+    <attributes uuid="7aaeed98-8348-4680-b97d-4025c6b52e55" extendedConfigurationObject="e6e8b383-1a7b-4037-b337-3fb424b25167">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+    <attributes uuid="d0b1bbe8-7761-42e4-8d15-78b90fba303f" extendedConfigurationObject="f94cdc50-538c-40f6-a601-aa79fd49ae55">
+      <name>РольАссортимента</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <extendedConfigurationObject>Checked</extendedConfigurationObject>
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>EnumRef.РолиАссортимента</type>
+          </types>
+        </typeExtension>
+      </extension>
+    </attributes>
+  </tabularSections>
+  <templates uuid="06c84e7b-121b-4c9d-9fd8-32214f92a2c3" extendedConfigurationObject="8f5ba715-39de-42b0-9b16-b4b66a6e0dbb">
+    <name>ЗагрузкаИзФайла</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicTemplateExtension">
+      <extendedConfigurationObject>Checked</extendedConfigurationObject>
+      <template>Extended</template>
+    </extension>
+  </templates>
+</mdclass:Document>

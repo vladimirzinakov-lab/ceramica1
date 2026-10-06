@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e18ce32e-f15f-49eb-b74a-a0e2a9adc84e">
+  <producedTypes>
+    <containerType typeId="abb16344-4ff7-4d82-810e-92916f4bf1d7" valueTypeId="89515d72-2071-4680-b04c-a8e35cd2e7f9"/>
+  </producedTypes>
+  <name>КонтурЛогистика_ДокументыУчетнойСистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур логистика документы учетной системы</value>
+  </synonym>
+  <comment>Перечисляются все документы учетной системы котоые будут связываться (быть основаниями или воодиться из) с документами Логистики</comment>
+  <type>
+    <types>DocumentRef.КонтурЛогистика_Вспомогательный</types>
+  </type>
+</mdclass:DefinedType>

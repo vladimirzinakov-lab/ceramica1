@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c339c3a3-4361-4f1c-964f-e90742966917">
+  <producedTypes>
+    <selectionType typeId="938c7ec1-3a21-40ec-8e51-9c46d99edcbe" valueTypeId="903b1b33-60c2-46c7-ab3f-eb9f7021a4e1"/>
+    <listType typeId="f4221a76-d7c0-4e13-b5c5-856636740a97" valueTypeId="8296c648-e4a3-4348-8389-2f71f8f3b736"/>
+    <managerType typeId="5ebbb002-ecf3-4edd-bf96-80b0692be059" valueTypeId="5d88c367-f1f7-4f93-8e07-73b7e62235f1"/>
+    <recordSetType typeId="4470b7f3-50bc-49a0-95e3-84a69b61c3e4" valueTypeId="3b426e18-a43e-4d8d-89d2-442601d1ffa6"/>
+    <recordKeyType typeId="e4517d47-fe7b-4b98-8a7f-e0ae0920e930" valueTypeId="408deb9b-8c9f-4bb9-a1a2-9fa1086e2c86"/>
+    <recordType typeId="b4cc5819-c9d8-4796-b7b7-8c17c51ad1e1" valueTypeId="86729efc-04c6-4dd9-bae9-f99d8642ee71"/>
+    <recordManagerType typeId="cd7c1207-3472-4fdf-82b7-e70c704e5a56" valueTypeId="fd9680f4-afe5-401a-85d7-f92233c26f38"/>
+  </producedTypes>
+  <name>ПечатьАктРекламацииГарантОбязательстваНеДействуют</name>
+  <synonym>
+    <key>ru</key>
+    <value>Печать акт рекламации гарант обязательства не действуют</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПечатьАктРекламацииГарантОбязательстваНеДействуют.Form.ФормаСписка</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="78a72c6d-ab3e-4fc4-a3a4-02f85feadf05">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="56c6b59d-df71-42dd-905a-592b454d3638">
+    <name>Содержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="910ba99c-a0f0-4e31-b3ac-08523a88b529">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

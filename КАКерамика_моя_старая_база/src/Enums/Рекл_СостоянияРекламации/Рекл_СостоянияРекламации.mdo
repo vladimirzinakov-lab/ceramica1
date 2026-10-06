@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="43918b86-0017-4479-8847-0c2220a368a8">
+  <producedTypes>
+    <refType typeId="d4ab7b4f-cb19-4f02-9c68-2188dcace57f" valueTypeId="05acd539-add8-4fe8-863d-a7527184bf4b"/>
+    <listType typeId="b2fb9f2d-524b-4450-8eca-c8fd28de2d01" valueTypeId="ebf0e56f-da37-421b-b3d0-8befa1fe9b8c"/>
+    <managerType typeId="0e24ce18-97e5-46dd-8ed9-e64a012462f0" valueTypeId="f8fd9b5c-b4fa-438f-b49f-994f24e5a69b"/>
+  </producedTypes>
+  <name>Рекл_СостоянияРекламации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния рекламации</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3b8f116c-c66a-406f-a559-ddac796b6686">
+    <name>Создана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="17d15a85-2a19-405e-9f67-57aeea717ade">
+    <name>ПереданоВСборку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Передано в сборку</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96fc822c-747e-4c7b-9695-3aec3a68fa54">
+    <name>КПеревозке</name>
+    <synonym>
+      <key>ru</key>
+      <value>К перевозке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf19f6db-6e17-4ecd-8e7f-e8c4b65f6c1b">
+    <name>Отгружена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгружена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd63c4f0-d378-4a0a-b11a-b2a32b6c5174">
+    <name>ОжидаетсяВозврат</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидается возврат</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cdcb9905-3a5c-4314-8a3e-27b624dbcbd1">
+    <name>Закрыта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрыта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

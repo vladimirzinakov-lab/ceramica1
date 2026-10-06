@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a27987b5-5c93-429d-a51a-29f4df7b4a7c">
+  <name>КонтурЛогистика_ПоискСозданиеСвязанныхДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск и создание связанных документов (Контур.Логистика)</value>
+  </synonym>
+  <methodName>CommonModule.КонтурЛогистика_РегламентныеЗадания.КонтурЛогистика_ПоискСозданиеСвязанныхДокументов</methodName>
+  <description>Поиск и создание связанных документов</description>
+  <key>КонтурЛогистика_ПоискСозданиеСвязанныхДокументов</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

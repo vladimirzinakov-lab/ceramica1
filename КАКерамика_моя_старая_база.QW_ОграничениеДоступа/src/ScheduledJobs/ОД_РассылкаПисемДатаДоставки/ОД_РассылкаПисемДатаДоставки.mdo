@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2abb65c8-732c-4180-a537-bfaf1becc62b">
+  <name>ОД_РассылкаПисемДатаДоставки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рассылка писем дата доставки (ОД)</value>
+  </synonym>
+  <methodName>CommonModule.ОД_РассылкаПисем.ОтправитьПочту</methodName>
+  <description>РассылкаПисемДатаДоставки</description>
+  <use>true</use>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

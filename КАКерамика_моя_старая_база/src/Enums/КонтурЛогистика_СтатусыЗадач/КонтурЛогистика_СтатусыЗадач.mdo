@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="85de2895-113a-4602-8863-14c3e3034926">
+  <producedTypes>
+    <refType typeId="b0d927f9-822b-4efc-bc0f-3c89742b11e3" valueTypeId="45ca6df7-e3f4-4910-91ff-bf8e9aa466bb"/>
+    <listType typeId="f8ee9cea-89dd-4b4b-8e8c-6751186c8cce" valueTypeId="12f5fbb7-4d66-4116-8c94-0b989e4eed40"/>
+    <managerType typeId="af993d90-420b-4775-83de-b0e980bf24b9" valueTypeId="c88f4d0b-b42a-4ab8-9e86-801af33ce60d"/>
+  </producedTypes>
+  <name>КонтурЛогистика_СтатусыЗадач</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы задач (Контур Логистика)</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="affce770-4897-4001-87e3-d46582901574">
+    <name>ВОчереди</name>
+    <synonym>
+      <key>ru</key>
+      <value>В очереди</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b93a6aa6-cde8-497b-8c60-bfdd375b9b4c">
+    <name>ВОбработке</name>
+    <synonym>
+      <key>ru</key>
+      <value>В обработке</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e42cad0d-46c1-450b-a55b-caaacc9347fb">
+    <name>Выполнена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнена</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c89510a1-e002-4749-80c8-b52562756bbb">
+    <name>Ошибка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f774add7-675c-4dcd-b657-7770519fc23c">
+    <name>Отменена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменена</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

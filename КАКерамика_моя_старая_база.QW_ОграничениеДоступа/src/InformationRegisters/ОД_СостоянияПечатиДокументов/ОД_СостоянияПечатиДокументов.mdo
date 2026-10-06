@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b466cf30-bed5-47dd-820a-203ac896c286">
+  <producedTypes>
+    <selectionType typeId="8045515e-df9a-478b-852a-5e08b4de89b1" valueTypeId="86ad0260-07f1-4914-beaf-653c50d19dec"/>
+    <listType typeId="e6474966-2077-4d8d-8091-d03dab210620" valueTypeId="d4f64e7f-fbba-454d-ad94-10fb1beb592b"/>
+    <managerType typeId="fc215a82-d9ea-4494-a23d-7a306e937d9f" valueTypeId="bb63d0d3-9980-4bb6-a502-a6ef3d4401f3"/>
+    <recordSetType typeId="91730983-2891-4d18-83e6-eb44628d627f" valueTypeId="e884d553-d1c5-4c2f-b30d-b437b554b828"/>
+    <recordKeyType typeId="974f9deb-7e3e-488f-8ef3-1a9ddb4d5cc8" valueTypeId="fcb3201b-c0b0-441b-9e76-c341547a4511"/>
+    <recordType typeId="c1afaba0-7401-4a40-ba04-953d61f9d06e" valueTypeId="704bb7b4-b2d6-42f5-a0e6-8698b4179164"/>
+    <recordManagerType typeId="96a7d415-1797-4127-a4bb-efd024cb28e9" valueTypeId="d64ab761-d3c0-4a65-8b43-8e6e47f2470d"/>
+  </producedTypes>
+  <name>ОД_СостоянияПечатиДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния печати документов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1d4f3fc8-9029-4308-9f00-9f57d42d9a8f">
+    <name>Распечатано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Распечатано</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="68b9fc08-7f99-42a6-a599-89a55df44eee">
+    <name>ЗаказКлиента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ клиента</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

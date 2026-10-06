@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c30fdb7c-0763-4d78-8701-dd01ac3be9bb">
+  <name>КонтурЛогистика_ПланировщикЗапускаРоботов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планировщик запуска роботов (Контур.Логистика)</value>
+  </synonym>
+  <comment>Автоматически запускает выполнение роботов в потоках (клиент-серверный вариант)</comment>
+  <methodName>CommonModule.КонтурЛогистика_РегламентныеЗадания.КонтурЛогистика_ПланировщикЗапускаРоботов</methodName>
+  <description>Планировщик запуска роботов (Контур.Логистика)</description>
+  <key>КонтурЛогистика_ПланировщикЗапускаРоботов</key>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

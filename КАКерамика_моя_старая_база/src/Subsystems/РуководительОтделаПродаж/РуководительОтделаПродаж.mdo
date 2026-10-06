@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c2a213a-6b00-4b0b-be81-2716df9c0af4">
+  <name>РуководительОтделаПродаж</name>
+  <synonym>
+    <key>ru</key>
+    <value>Руководитель отдела продаж</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Role.ПолныеПрава</content>
+  <content>Catalog.ДоговорыКонтрагентов</content>
+  <content>Document.ЗаказКлиента</content>
+  <content>Document.ЗаданиеНаПеревозку</content>
+  <content>DataProcessor.ЖурналДокументовПродажи</content>
+  <content>CommonCommand.НоменклатураФормаПодбора</content>
+  <content>Role.РуководительОтделаПродажДополнительно</content>
+  <content>Catalog.Партнеры</content>
+  <content>Catalog.Контрагенты</content>
+  <subsystems>Отчеты</subsystems>
+</mdclass:Subsystem>

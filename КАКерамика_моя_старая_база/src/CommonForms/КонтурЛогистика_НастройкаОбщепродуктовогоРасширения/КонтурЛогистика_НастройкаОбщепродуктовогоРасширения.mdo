@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d73bd71-8eb9-4f52-b16e-f3efab5ae67f">
+  <name>КонтурЛогистика_НастройкаОбщепродуктовогоРасширения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контур логистика настройка общепродуктового расширения</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

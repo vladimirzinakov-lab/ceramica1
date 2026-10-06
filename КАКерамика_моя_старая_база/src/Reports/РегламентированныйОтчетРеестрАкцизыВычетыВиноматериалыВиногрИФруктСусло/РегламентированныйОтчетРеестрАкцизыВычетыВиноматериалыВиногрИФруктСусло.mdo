@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dac9dc28-fc23-42bd-8fd8-b562d0aeb13d">
+  <producedTypes>
+    <objectType typeId="a4af7eb5-5b26-4549-a719-bff79c499d80" valueTypeId="75bb6fc4-7392-4546-b281-07e7fb25fbc5"/>
+    <managerType typeId="1f095590-5981-46cc-a623-a643d8a72cc8" valueTypeId="aa4cb56b-3981-40d3-a8c5-3a1010175009"/>
+  </producedTypes>
+  <name>РегламентированныйОтчетРеестрАкцизыВычетыВиноматериалыВиногрИФруктСусло</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реестр для налоговых вычетов по акцизам на виноматериалы, виноградное и фруктовое сусло</value>
+  </synonym>
+  <defaultForm>Report.РегламентированныйОтчетРеестрАкцизыВычетыВиноматериалыВиногрИФруктСусло.Form.ОсновнаяФорма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="f758a117-1964-4057-b06a-c8f969918f8c">
+    <name>ОсновнаяФорма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр для налоговых вычетов по акцизам на виноматериалы, виноградное и фруктовое сусло</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="81195f4c-515f-46bd-9a91-11a870cb5205">
+    <name>ФормаОтчета2021Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестр для налоговых вычетов по акцизам на виноматериалы, виноградное и фруктовое сусло</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="b10a4e86-74f1-4dfe-afff-424703aa1358">
+    <name>НастройкиЗагрузкиXML2021Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки загрузки из файла XML 2021 (кв.4)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="ddfb1881-0d9f-4b6f-8a7c-73cd91aa7a1a">
+    <name>НастройкиСравнения2021Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки сравнения отчетов 2021 (кв.4)</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="e5f34c55-3c41-4d4a-9ae7-d0ebe700717f">
+    <name>ПечатныйБланк2021Кв4_Таблица1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестры</value>
+    </synonym>
+  </templates>
+  <templates uuid="ff13d1eb-5659-437f-adcc-5fb48a428315">
+    <name>ПечатныйБланк2021Кв4_Таблица2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реестры</value>
+    </synonym>
+  </templates>
+  <templates uuid="53aaa916-883a-497c-8caf-b6b89ce94bce">
+    <name>ПечатныйБланк2021Кв4_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный лист</value>
+    </synonym>
+  </templates>
+  <templates uuid="d8554e59-3903-4fd5-9895-7a4ca1bea909">
+    <name>СпискиВыбора2021Кв4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Списки выбора значений</value>
+    </synonym>
+  </templates>
+  <templates uuid="8bb7d383-8553-43ac-bd7b-e24b9b58bc96">
+    <name>СхемаВыгрузки501_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки первого файла, версия 5.01</value>
+    </synonym>
+  </templates>
+  <templates uuid="0ec93592-17a2-4ebd-841a-e7427e690e09">
+    <name>СхемаВыгрузки501_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема выгрузки второго файла, версия 5.01</value>
+    </synonym>
+  </templates>
+  <templates uuid="a048890c-f999-4cb7-a48b-59a8f5a8dbfb">
+    <name>ФормаОтчета2021Кв4_Таблица1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица 1</value>
+    </synonym>
+  </templates>
+  <templates uuid="5afa2f3e-6632-4a6f-931f-1f3b12b681a1">
+    <name>ФормаОтчета2021Кв4_Таблица2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица 2</value>
+    </synonym>
+  </templates>
+  <templates uuid="bc928c22-3c26-46bc-b6ee-5e958f5c8561">
+    <name>ФормаОтчета2021Кв4_Титульный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Титульный лист</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

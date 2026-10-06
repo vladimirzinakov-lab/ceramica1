@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="26d787fe-b849-4b25-846c-ed6172c15532">
+  <name>КонтурЛогистика_РаспечататьТранспортнуюНакладную</name>
+  <synonym>
+    <key>ru</key>
+    <value>Распечатать</value>
+  </synonym>
+  <group>CommandGroup.КонтурЛогистика_КомандыВводаДокументов</group>
+  <commandParameterType>
+    <types>DefinedType.КонтурЛогистика_ОбщаяКомандаДокументыУчетнойСистемыИТитулыИЭТРН</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Picture</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Распечатать сразу на принтере, указанному в настройках</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.КонтурЛогистика_ПечатьАвтоматическая</picture>
+  </picture>
+</mdclass:CommonCommand>

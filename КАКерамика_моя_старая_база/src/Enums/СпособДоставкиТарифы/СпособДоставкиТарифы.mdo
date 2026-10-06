@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="80458fba-53db-4fd7-ad1f-d29a431d225f">
+  <producedTypes>
+    <refType typeId="dff28eba-fb79-4c2c-b001-cfcb78d1976c" valueTypeId="4e5be17e-3268-4bd9-8113-d420689a909c"/>
+    <listType typeId="e1eaf89c-9a97-4f65-9309-9aa2a76df945" valueTypeId="51bb1530-c1db-4562-8fa1-585a8ef05b1d"/>
+    <managerType typeId="1f45c132-64f2-47f2-8e46-7618ca0756b3" valueTypeId="161c05e5-a5f8-44a4-8b80-6fb4752b452f"/>
+  </producedTypes>
+  <name>СпособДоставкиТарифы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Способ доставки тарифы</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b0edd0b3-0e75-4028-8947-acd9db9a99fa">
+    <name>СкладТерминал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад / Терминал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1231a331-da95-49d3-a735-5e1820d9e426">
+    <name>СкладДверь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад / Дверь до адреса клиента</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
