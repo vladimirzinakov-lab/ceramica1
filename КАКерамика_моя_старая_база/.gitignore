@@ -1,0 +1,2 @@
+# Крупные бинарные файлы родительских конфигураций (превышают лимит GitHub 100 МБ)
+src/Configuration/ParentConfigurations/*.cf
