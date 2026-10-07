@@ -3,14 +3,14 @@
   <producedTypes>
     <objectType typeId="87a780d9-6a62-4f40-980a-e0690fde2732" valueTypeId="9d819dab-9571-4737-aa86-35e9de96916d"/>
   </producedTypes>
-  <name>ОбработкаДокументов</name>
+  <name>ОБ_083_ОбработкаДокументов</name>
   <synonym>
     <key>ru</key>
     <value>Рабочее место: Обработка документов</value>
   </synonym>
   <comment>(83)</comment>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="31f36a18-55c7-49f5-a475-7349f47af3b0"/>
-  <defaultForm>ExternalDataProcessor.ОбработкаДокументов.Form.Форма</defaultForm>
+  <defaultForm>ExternalDataProcessor.ОБ_083_ОбработкаДокументов.Form.Форма</defaultForm>
   <forms uuid="a0b31085-b13d-4e76-b2bc-26138239b0ff">
     <name>Форма</name>
     <synonym>

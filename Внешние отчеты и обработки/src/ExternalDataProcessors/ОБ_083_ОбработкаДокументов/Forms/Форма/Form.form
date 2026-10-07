@@ -2881,7 +2881,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessor.ОбработкаДокументов</types>
+      <types>ExternalDataProcessor.ОБ_083_ОбработкаДокументов</types>
     </valueType>
     <view>
       <common>true</common>
