@@ -364,70 +364,69 @@
 	<rowsItem>
 		<index>7</index>
 		<row>
-			<formatIndex>34</formatIndex>
 			<c>
 				<c>
-					<f>35</f>
+					<f>34</f>
 					<parameter>Ном</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>36</f>
+					<f>35</f>
 					<parameter>Артикул</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>37</f>
+					<f>36</f>
 					<parameter>Номенклатура</parameter>
 					<detailParameter>Номенклатура</detailParameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>38</f>
+					<f>37</f>
 					<parameter>Бренд</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>39</f>
+					<f>38</f>
 					<parameter>Категория</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>40</f>
+					<f>39</f>
 					<parameter>Статус</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>41</f>
+					<f>40</f>
 					<parameter>ОстатокНаСкладе</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>42</f>
+					<f>41</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>43</f>
+					<f>42</f>
 					<parameter>Продажи</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>43</f>
+					<f>42</f>
 					<parameter>ПродажиСреднее</parameter>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>44</f>
+					<f>43</f>
 					<parameter>КоэфОстатка</parameter>
 				</c>
 			</c>
@@ -455,22 +454,22 @@
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>44</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>44</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>44</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>44</f>
 				</c>
 			</c>
 		</row>
@@ -491,29 +490,29 @@
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>44</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>44</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>44</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>45</f>
+					<f>44</f>
 					<tl/>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>46</defaultFormatIndex>
+	<defaultFormatIndex>45</defaultFormatIndex>
 	<height>11</height>
 	<vgRows>11</vgRows>
 	<merge>
@@ -760,7 +759,7 @@
 		<width>142</width>
 	</format>
 	<format>
-		<width>176</width>
+		<width>327</width>
 	</format>
 	<format>
 		<font>0</font>
@@ -897,9 +896,6 @@
 	</format>
 	<format>
 		<width>389</width>
-	</format>
-	<format>
-		<height>-48</height>
 	</format>
 	<format>
 		<font>3</font>
