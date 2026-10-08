@@ -218,7 +218,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>ExternalDataProcessor.ВПФ_ЗаявкаАвтотранспорта_Вер2</types>
+      <types>ExternalDataProcessor.ВП_006_03_ЗаявкаАвтотранспорта_Вер2</types>
     </valueType>
     <view>
       <common>true</common>

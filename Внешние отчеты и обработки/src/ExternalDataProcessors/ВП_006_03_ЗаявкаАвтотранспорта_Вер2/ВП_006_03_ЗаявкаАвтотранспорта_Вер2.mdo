@@ -3,14 +3,14 @@
   <producedTypes>
     <objectType typeId="f04cb224-1f03-49ad-a738-fabbfd94a45e" valueTypeId="9e723fa0-9bd8-4ead-8a0e-b67af5b7b9cd"/>
   </producedTypes>
-  <name>ВПФ_ЗаявкаАвтотранспорта_Вер2</name>
+  <name>ВП_006_03_ЗаявкаАвтотранспорта_Вер2</name>
   <synonym>
     <key>ru</key>
     <value>Заявка автотранспорта (вер.2)</value>
   </synonym>
   <comment>006-03</comment>
   <containedObjects classId="c3831ec8-d8d5-4f93-8a22-f9bfae07327f" objectId="19d03d65-9e34-44a7-bfed-df8e6543a06c"/>
-  <defaultForm>ExternalDataProcessor.ВПФ_ЗаявкаАвтотранспорта_Вер2.Form.Форма</defaultForm>
+  <defaultForm>ExternalDataProcessor.ВП_006_03_ЗаявкаАвтотранспорта_Вер2.Form.Форма</defaultForm>
   <attributes uuid="c0743182-c885-4208-b324-312c7dd87db1">
     <name>ДокСсылка</name>
     <synonym>
